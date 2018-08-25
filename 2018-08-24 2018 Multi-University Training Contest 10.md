@@ -90,11 +90,58 @@ int main() {
 }
 ```
  
- 
-
 ### C题
 待补
 ### K题
-待补
+发现是好简单的DP。
+考虑第i位，如果目标数是0，那直接跳过考虑下一位；如果目标数是1，这时候可以选择填进该位一个正的1，也可以填一个负的1，填正的1直接往下做就行了，填负的1，则相当于对下一位产生一个进位。
+
+那么dp[i][0]表示第i位不产生进位的答案，dp[i][1]表示第i位产生进位的答案。
+
+再预处理一下，产生第i位的±1需要的数字个数的最小值。这题就很轻松愉快地做完了~
+```c++
+#include <bits/stdc++.h>
+using namespace std;
+int n;
+const int N = 1e5+10;
+const int INF = 1e9+1;
+char s[N], cs[2][N];
+void Mini(int &a, int b) {
+    if (b < a) a = b;
+}
+int c[N][2], dp[N][2];
+int main() {
+    int T;
+    scanf("%d", &T);
+    while (T--) {
+        scanf("%d", &n);
+        scanf("%s%s%s", s, cs[0], cs[1]);
+        ++n;
+        for (int j = 0; j < 2; j++)
+        for (int i = 0; i < n; i++) {
+            c[i][j] = INF;
+            if (cs[j][i] != '1') Mini(c[i][j], 1);
+            if (i > 0) Mini(c[i][j], c[i-1][j] * 2);
+        }      
+        dp[n][0] = 0;
+        dp[n][1] = INF;
+        for (int i = n - 1; i >= 0; i--) {
+            dp[i][0] = dp[i][1] = INF;
+            if (s[i] == '1') {
+                Mini(dp[i][0], c[i][0]+dp[i+1][0]);
+                Mini(dp[i][0], c[i][1]+dp[i+1][1]);
+                Mini(dp[i][1], dp[i+1][1]);
+            }
+            else {
+                Mini(dp[i][1], c[i][0]+dp[i+1][0]);
+                Mini(dp[i][1], c[i][1]+dp[i+1][1]);
+                Mini(dp[i][0], dp[i+1][0]);
+            }
+        }
+        printf("%d\n", dp[0][0]); 
+    }
+}
+```
+
 ### A题
 
