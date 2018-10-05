@@ -17,7 +17,8 @@ https://vjudge.net/contest/257653
 ### B
 其实答案就是每位加法的基本代价（1）+写下每一位答案的代价（1）+加数超过1的加法的代价（1）+进位的代价（1）。
 前两个的答案显然是2k，加数超过1的考虑每一对数的补集，把没出现过的情况减掉就是出现过至少一次的情况，进位的情况直接数位dp。
-'''c++#include<bits/stdc++.h>
+```c++
+#include<bits/stdc++.h>
 #define maxn 5005
 using namespace std;
 typedef long long LL;
@@ -63,7 +64,7 @@ int main()
     solve();
     return 0;
 }
-'''
+```
 ### D
 ### F
 ### J
