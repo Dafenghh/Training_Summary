@@ -15,6 +15,60 @@ https://vjudge.net/contest/257653
 
 ## 要补的题+题解
 ### B
+其实答案就是每位加法的基本代价（1）+写下每一位答案的代价（1）+加数超过1的加法的代价（1）+进位的代价（1）。
+前两个的答案显然是2k，加数超过1的考虑每一对数的补集，把没出现过的情况减掉就是出现过至少一次的情况，进位的情况直接数位dp。
+'''c++
+#include<bits/stdc++.h>
+#define maxn 5005
+using namespace std;
+typedef long long LL;
+
+int n;
+
+double dp[maxn][2];
+
+void init()
+{
+	scanf("%d",&n);
+}
+
+void solve()
+{
+	double ans=2*n,p1=1.0,p2=1.0;
+	
+	dp[0][0]=1;
+	for (int i=1;i<n;++i)
+	{
+		dp[i][0]=0.55*dp[i-1][0]+0.45*dp[i-1][1];
+		dp[i][1]=0.45*dp[i-1][0]+0.55*dp[i-1][1];
+		ans+=dp[i][1]*2;
+		p1*=0.98;
+		p2*=0.99;
+	}
+	
+	p1*=79.0/81.0;
+	p2*=80.0/81.0;
+	
+//	printf("%.10lf %.10lf\n",p1,p2);
+	
+	ans+=(1.0-p1)*28.0+(1.0-p2)*8;
+	
+	dp[n][1]=45.0/81.0*dp[n-1][0]+53.0/81.0*dp[n-1][1];
+	
+//	printf("%.10lf\n",dp[n][1]);
+	ans+=dp[n][1]*2;
+	
+	printf("%.10lf\n",ans);
+}
+
+int main()
+{
+//    freopen("c.in","r",stdin);
+    init();
+    solve();
+    return 0;
+}
+'''
 ### D
 ### F
 ### J
