@@ -1,13 +1,4 @@
-# Day1
-## H 割葱 By Zayin[(代码点此）](https://paste.ubuntu.com/p/xxbz9mT2PM/)
-  令dp[l][r][h][k]表示[l,r]这个区间之前在高度h被割过，还剩k刀可以用的最大值。注意到[l,r]的有效区间只有O(n)个即可。  
-  这种类型的题是利用了状态较少的性质————笛卡尔树的节点只有O(n)个。  
-  听说类似的题还有[ICPC 2016 Hong Kong G. Scaffolding](ttps://vjudge.net/contest/271028#problem/G) 
-  BTW,其实可以不写背包。  
-
-## I 起起落落 By Zayin[(代码点此）](https://paste.ubuntu.com/p/Mq2GGk5mwK/)
-
-## J 夺宝奇兵 By Zayin[(代码点此）](https://paste.ubuntu.com/p/qcTxNBB5Gr/)
+# Day1  
 
 ## D 超难的数学题 By Zayin[(未AC代码）](https://paste.ubuntu.com/p/sstjqyhZ38/)[(AC代码）](https://paste.ubuntu.com/p/3c5NX4Gpxr/)  
   此类问题是一种新套路。  
@@ -27,7 +18,17 @@
   实际上并不用实现高精度小数，因为p最多是5位，所以转成p=q/100000的形式，交叉相乘就可以避免使用小数。  
   但依然还是要使用高精度整数（加法，单精乘法，单精除法）。  
   
-  看了一下所有AC的，他们估计是真的写了高精度小数，因为我只有69ms，他们最少是699ms。。。。
+  看了一下所有AC的，他们估计是真的写了高精度小数，因为我只有69ms，他们最少是699ms。。。。  
+  
+## H 割葱 By Zayin[(代码点此）](https://paste.ubuntu.com/p/xxbz9mT2PM/)
+  令dp[l][r][h][k]表示[l,r]这个区间之前在高度h被割过，还剩k刀可以用的最大值。注意到[l,r]的有效区间只有O(n)个即可。  
+  这种类型的题是利用了状态较少的性质————笛卡尔树的节点只有O(n)个。  
+  听说类似的题还有[ICPC 2016 Hong Kong G. Scaffolding](ttps://vjudge.net/contest/271028#problem/G) 
+  BTW,其实可以不写背包。  
+
+## I 起起落落 By Zayin[(代码点此）](https://paste.ubuntu.com/p/Mq2GGk5mwK/)
+
+## J 夺宝奇兵 By Zayin[(代码点此）](https://paste.ubuntu.com/p/qcTxNBB5Gr/)
 
 # Day2
 ## I Square Subsequences By Zayin[(代码点此）](https://paste.ubuntu.com/p/q4TCR5YNZC/)
