@@ -5,30 +5,40 @@ O代表正在Focus
 
 -代表题目不存在或者太水
 
+点击√可查看代码
 
 # Dafeng
 
-DAFENG| A | B | C | D | E | F | G | H | I | J | K | L
-:----:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:
-Day1  |   |[√][1]|   |   |   |   |   | √ |   |   |   | - 
-Day2  |   |   |   |   |   |   |   |   |   |   |   |  
-Day3  |   |   |   |   |   |   |   |   |   |   | - | -  
-Day4  |   |   |   |   |   |   |   |   |   |   |   | - 
-Day5  |   |   |   |   |   |   |   |   |   |   | - | -  
-Day7  |   |   |   |   |   |   |   |   |   |   | - | - 
-Day8  |   |   |   |   |   |   |   |   |   |   | - | - 
+Dafeng  |   A    |   B    |   C    |   D    |   E    |   F    |   G    |   H    |   I    |   J    |   K    |   L
+:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:
+Day1    |        | [√][1] |        |        |        |        |        | [√][2] |        |        |        | - 
+Day2    |        |        |        |        |        |        |        |        |        |        |        |  
+Day3    |        |        |        |        |        |        |        |        |        |        |    -   | - 
+Day4    |        |        |        |        |        |        |        |        |        |        |        | -
+Day5    |        |        |        |        |        |        |        |        |        |        |    -   | -
+Day7    |        |        |        |        |        |        |        |        |        |        |    -   | - 
+Day8    |        |        |        |        |        |        |        |        |        |        |    -   | -
 
 
-# Zayin（点击√可查看代码）
 
-Zayin | A | B | C | D | E | F | G | H | I | J | K | L
-:----:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:
-Day1  |   |   |   | [√](https://paste.ubuntu.com/p/3c5NX4Gpxr/) |   |   |   | [√](https://paste.ubuntu.com/p/xxbz9mT2PM/) | [√](https://paste.ubuntu.com/p/Mq2GGk5mwK/) | [√](https://paste.ubuntu.com/p/qcTxNBB5Gr/) |   | - 
-Day2  |   |   |   |   |   |   |   |   | [√](https://paste.ubuntu.com/p/q4TCR5YNZC/) |   |   |  
-Day3  |   |   |   |   |   |   |   |   |   |   | - | -  
-Day4  |   |   |   |   |   |   |   |   |   |   |   | - 
-Day5  |   |   |   |   |   |   |   |   |   |   | - | -  
-Day7  |   |   |   |   |   |   |   |   |   |   | - | - 
-Day8  |   |   |   |   |   |   |   |   |   |   | - | - 
+# Zayin
 
-[1]: https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day1/b.cpp
+Zayin   |   A    |   B    |   C    |   D    |   E    |   F    |   G    |   H    |   I    |   J    |   K    |   L
+:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:
+Day1    |        |        |        | [√][3] |        |        |        | [√][4] | [√][5] | [√][6] |        | - 
+Day2    |        |        |        |        |        |        |        |        | [√][7] |        |        |  
+Day3    |        |        |        |        |        |        |        |        |        |        |    -   | - 
+Day4    |        |        |        |        |        |        |        |        |        |        |        | -
+Day5    |        |        |        |        |        |        |        |        |        |        |    -   | -
+Day7    |        |        |        |        |        |        |        |        |        |        |    -   | - 
+Day8    |        |        |        |        |        |        |        |        |        |        |    -   | -
+
+
+
+[1]: https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day1/b_dafeng.cpp
+[2]: https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day1/h_dafeng.cpp
+[3]: https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day1/d_zayin.cpp
+[4]: https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day1/h_zayin.cpp
+[5]: https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day1/i_zayin.cpp
+[6]: https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day1/j_zayin.cpp
+[7]: https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day2/i_zayin.cpp
