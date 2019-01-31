@@ -34,6 +34,19 @@ Day7    |        |        |        |        |        |        |        |        
 Day8    |        |        |        |        |        |        |        |        |        |        |    -   | -
 
 
+# Dasin
+
+Dasin   |   A    |   B    |   C    |   D    |   E    |   F    |   G    |   H    |   I    |   J    |   K    |   L
+:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:
+Day1    |        |        |        |        |        |        |        |        |        |        |        | - 
+Day2    |        | [√][8] |        |        |        |        |        |        |        |        |        |  
+Day3    |        |        |        |        |        |        |        |        |        |        |    -   | - 
+Day4    |        |        |        |        |        |        |        |        |        |        |        | -
+Day5    |        |        |        |        |        |        |        |        |        |        |    -   | -
+Day7    |        |        |        |        |        |        |        |        |        |        |    -   | - 
+Day8    |        |        |        |        |        |        |        |        |        |        |    -   | -
+
+
 
 [1]: https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day1/b_dafeng.cpp
 [2]: https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day1/h_dafeng.cpp
