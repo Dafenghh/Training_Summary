@@ -32,7 +32,7 @@
 # Day2
 ## I Square Subsequences By Zayin[(代码点此）](https://paste.ubuntu.com/p/q4TCR5YNZC/)
   枚举分段点然后左右两边做最长公共子序列即可，但这样是O(n^3)的。  
-  使用位运算加速dp，可做到O(n^3/w)，w取120(__int128)。
+  使用位运算加速dp，可做到O(n^3/w)，w取120(__int128)。  
   但是这样依然是卡不过去的...~~可能是我常数太大~~，所以要使用一些奇奇怪怪的卡常姿势，~~鬼知道我卡了多久。~~
   
   还有就是__builtin_popcount只能算int的1个数，因为这个也WA了很久。。。
