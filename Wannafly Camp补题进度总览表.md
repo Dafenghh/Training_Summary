@@ -50,7 +50,7 @@ Day7    |        |        |        |        |        |        |        |        
 Day8    |        |        |        |        |        |        |        |        |        |        |    -   | -
 
 
-[8]:https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day2/b_dasin.cpp
+
 
 
 
