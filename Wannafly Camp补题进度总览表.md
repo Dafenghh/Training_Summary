@@ -7,6 +7,9 @@ O代表正在Focus
 
 点击√可查看代码
 
+[//]:https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day
+
+
 # Dafeng
 
 Dafeng  |   A    |   B    |   C    |   D    |   E    |   F    |   G    |   H    |   I    |   J    |   K    |   L
@@ -45,6 +48,9 @@ Day4    |        |        |        |        |        |        |        |        
 Day5    |        |        |        |        |        |        |        |        |        |        |    -   | -
 Day7    |        |        |        |        |        |        |        |        |        |        |    -   | - 
 Day8    |        |        |        |        |        |        |        |        |        |        |    -   | -
+
+
+[8]:https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day2/b_dasin.cpp
 
 
 
