@@ -64,6 +64,6 @@
   
 # Day3
 ## F 小清新数论 By Zayin[(代码点此）](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day3/F_Zayin.cpp)
-  经典杜教筛。
+  经典杜教筛。  
   sigma (f·g)(i) [1<=i<=n]= sigma (f·g·1)(i)  [1<=i<=n] - sigma (f·g)(n/i)  [2<=i<=n]
 
