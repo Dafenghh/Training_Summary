@@ -59,3 +59,6 @@
   
   还有就是__builtin_popcount只能算int的1个数，因为这个也WA了很久。。。
   
+## L Pyramid By Zayin[(代码点此）](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day2/L_Zayin.cpp)
+  一个任意放置的三角形总能恰好被一个正立的三角形套住，剩下的都是推公式了。。。
+
