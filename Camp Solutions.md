@@ -16,6 +16,8 @@
 假设答案具有`A*2520+B`的形式，那么我们可以用求出来的`dp[2520*2^k][i][j]`的值逐位确定A，接着使用`dp[t][i][j], t<=2520`的值确定B，得到答案。
 
 ## D 超难的数学题 By Zayin[(未AC代码）](https://paste.ubuntu.com/p/sstjqyhZ38/)[(AC代码）](https://paste.ubuntu.com/p/3c5NX4Gpxr/)  
+  PS:样例的答案应该是1464！！！  
+  
   此类问题是一种新套路。  
   定义f(n)=[1,n]中满足性质P的数字个数占[1,n]的比例，求解f(n)>=p的最小的n。  
     
