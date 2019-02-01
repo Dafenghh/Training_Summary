@@ -1,4 +1,7 @@
 
+[题解戳这里](https://github.com/Dafenghh/Training_Summary/blob/master/Camp%20Solutions.md)
+
+
 √代表已完成
 
 O代表正在Focus
@@ -6,6 +9,9 @@ O代表正在Focus
 -代表题目不存在或者太水
 
 点击√可查看代码
+
+
+
 
 [//]:https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day
 
