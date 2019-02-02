@@ -57,7 +57,8 @@
   使用位运算加速dp，可做到O(n^3/w)，w取120(__int128)。  
   但是这样依然是卡不过去的...~~可能是我常数太大~~，所以要使用一些奇奇怪怪的卡常姿势，~~鬼知道我卡了多久。~~
   
-  还有就是__builtin_popcount只能算int的1个数，因为这个也WA了很久。。。
+  还有就是__builtin_popcount只能算int的1个数，因为这个也WA了很久。。。  
+  [位运算加速dp提交请戳这](https://loj.ac/problem/6564)
   
 ## L Pyramid By Zayin[(代码点此）](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day2/L_Zayin.cpp)
   一个任意放置的三角形总能恰好被一个正立的三角形套住，剩下的都是推公式了。。。
