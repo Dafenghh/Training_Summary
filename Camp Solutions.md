@@ -67,3 +67,10 @@
   经典杜教筛。  
   sigma (f·g)(i) [1<=i<=n]= sigma (f·g·1)(i)  [1<=i<=n] - sigma (f·g)(n/i)  [2<=i<=n]
 
+## J 子序列 By Zayin[(代码点此）](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day3/J_Zayin.cpp)
+  我们先考虑一个普通字符串怎么统计子序列个数。  
+  记f[i]为以i结尾的子序列个数，sum为当前总子序列个数，初始时sum=1（空串）。  
+  每遇到一个字符c，则有f'[c]=sum,sum'=2*sum-f[c]，那么每个字符都可以写成一个转移矩阵。  
+  回到这题，字符串的变化是 S <- SaS，那么矩阵对应乘起来即可。  
+  类似的题还有[Loj6074](https://loj.ac/problem/6074)
+
