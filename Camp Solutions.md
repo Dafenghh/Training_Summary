@@ -3,7 +3,7 @@
 
 # Day1  
 
-## B 吃豆豆 By Dafeng [(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day1/b_dafeng.cpp)
+## B 吃豆豆 By Dafeng [(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day1/B_dafeng.cpp)
 
 其实是常规的DP+倍增套路。首先不要被C的范围(1e18)吓到了。当C很小时，我们可以直接dp.
 
@@ -67,6 +67,9 @@
 ## F 小清新数论 By Zayin[(代码点此）](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day3/F_Zayin.cpp)
   经典杜教筛。  
   sigma (f·g)(i) [1<=i<=n]= sigma (f·g·1)(i)  [1<=i<=n] - sigma (f·g)(n/i)  [2<=i<=n]
+  
+## H 涂鸦 By Zayin[(代码点此）](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day3/H_Zayin.cpp)
+  标记永久化其实还挺好写的...
 
 ## J 子序列 By Zayin[(代码点此）](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day3/J_Zayin.cpp)
   我们先考虑一个普通字符串怎么统计子序列个数。  
