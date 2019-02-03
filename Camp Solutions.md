@@ -68,7 +68,8 @@
   dp好题！！！非常好！！！  
   重新回顾了姿势：缺什么状态就补上什么状态，直到可以完美表示为止。  
   记dp[i][a][1/2]为以i结尾且该类型的能量是a，当前序列末尾有1/2个。  
-  其实往后更新的dp是很容易写的，但会TLE，所以一定要写成从前贡献的dp，用前缀和优化即可。
+  其实往后更新的dp是很容易写的，但会TLE，所以一定要写成从前贡献的dp，用前缀和优化即可。  
+  不懂可以直接看代码，挺短的2333.
   
 ## F 小清新数论 By Zayin[(代码点此）](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day3/F_Zayin.cpp)
   经典杜教筛。  
