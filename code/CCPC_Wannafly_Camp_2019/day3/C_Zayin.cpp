@@ -30,7 +30,7 @@ void init()
                     pre[i][j][b]=pre[pre[pre[i][j-1][b]-1][j-1][b]-1][j-1][b];
 }
 
-LL dp[maxn][A+1][2],ans;
+LL dp[maxn][A+1][2];
 LL ls[maxn][A+1],rs[maxn][A+1],sum[maxn];
 
 LL add(LL &a,LL b)  {   a=(a+b+modu)%modu;   }
