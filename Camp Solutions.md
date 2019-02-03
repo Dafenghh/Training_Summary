@@ -64,6 +64,12 @@
   一个任意放置的三角形总能恰好被一个正立的三角形套住，剩下的都是推公式了。。。
   
 # Day3
+## C 小游戏 By Zayin[(代码点此）](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day3/C_Zayin.cpp)
+  dp好题！！！非常好！！！  
+  重新回顾了姿势：缺什么状态就补上什么状态，直到可以完美表示为止。  
+  记dp[i][a][1/2]为以i结尾且该类型的能量是a，当前序列末尾有1/2个。  
+  其实往后更新的dp是很容易写的，但会TLE，所以一定要写成从前贡献的dp，用前缀和优化即可。
+  
 ## F 小清新数论 By Zayin[(代码点此）](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day3/F_Zayin.cpp)
   经典杜教筛。  
   sigma (f·g)(i) [1<=i<=n]= sigma (f·g·1)(i)  [1<=i<=n] - sigma (f·g)(n/i)  [2<=i<=n]
