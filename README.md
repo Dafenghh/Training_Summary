@@ -19,7 +19,7 @@ Regional 金
 [Wannafly Camp题解(持续更新)](https://github.com/Dafenghh/Training_Summary/blob/master/Camp%20Solutions.md)
 
       
-[达烽的计划](https://github.com/Dafenghh/Training_Summary/blob/master/Dafengs%20Plans.md)
+[达烽的计划](https://github.com/Dafenghh/Training_Summary/blob/master/Dafeng's%20Plans.md)
     
 
 
