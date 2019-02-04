@@ -23,7 +23,7 @@ Dafeng  |   A    |   B    |   C    |   D    |   E    |   F    |   G    |   H    
 Day1    |    O   |[√][001]|[√][003]|        |        |     -  |[√][004]|[√][002]|        |        |        | - 
 Day2    |        |        |        |        |        |        |        |        |        |        |        |  
 Day3    |        |        |        |        |        |        |        |        |        |        |    -   | - 
-Day4    |        |        |        |        |        |        |        |        |        |        |        | -
+Day4    |        |        |        |        |        |        |        |[√][005]|        |        |        | -
 Day5    |        |        |        |        |        |        |        |        |        |        |    -   | -
 Day7    |        |        |        |        |        |        |        |        |        |        |    -   | - 
 Day8    |        |        |        |        |        |        |        |        |        |        |    -   | -
@@ -32,6 +32,7 @@ Day8    |        |        |        |        |        |        |        |        
 [002]: https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day1/H_dafeng.cpp
 [003]: https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day1/C_dafeng.cpp
 [004]: https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day1/G_dafeng.cpp
+[005]: https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day4/H_dafeng.cpp
 
 # Zayin (100-199)
 
