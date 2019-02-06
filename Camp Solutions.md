@@ -51,7 +51,16 @@
 
 ## I 起起落落 By Zayin[(代码点此)](https://paste.ubuntu.com/p/Mq2GGk5mwK/)
 
-## J 夺宝奇兵 By Zayin[(代码点此）](https://paste.ubuntu.com/p/qcTxNBB5Gr/)
+## J 夺宝奇兵 [By Dafeng](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day1/J_dafeng.cpp) [By Zayin](https://paste.ubuntu.com/p/qcTxNBB5Gr/)
+
+对除自己外所有人按拥有宝物数降序排序，每个人拥有的宝物按升序排序。
+
+假设拥有宝物最多的人有c个宝物。枚举除自己外所有人拥有宝物的最大数量h，从大到小枚举，即从c枚举到0.
+
+这样每次枚举一个h时，将所有拥有宝物超过h个的人多出的宝物买过来（当然先买便宜的，所以每个人宝物按升序排序），这是第一部分的花费。然后统计下买过来的宝物数量够不够h+1，如果还差k，就从剩下没被取的宝物中买k个最便宜的宝物，这是第二部分的花费。
+
+第一部分的花费可以直接对每个人维护一个队列，按需pop即可。第二部分的花费可以在这些队列的基础上，加一个权值线段树维护。（Zayin写了主席树，做法也差不多吧……）
+
 
 ## K 星球大战 By Zayin[(代码点此）](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day1/K_Zayin.cpp)  
   首先建立1号点的bfs树，邪恶点的入侵一定是按照bfs树的深度入侵的。  
