@@ -126,4 +126,4 @@
 
 # Day 8
 ## I 岸边露伴的人生经验 By Zayin[(代码点此)]（https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day8/I_Zayin.cpp）
-  首先做出如下转变 0->00,1->01,2->11,则|x-y|-> sx^sy。FWT一下即可。
+  首先做出如下转变 0->00,1->01,2->11,则|x-y|-> (sx^sy)中1的个数。FWT后再统计一下即可。
