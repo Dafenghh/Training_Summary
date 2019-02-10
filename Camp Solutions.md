@@ -120,3 +120,6 @@
 于是我们得到了正解。
 
 
+# Day 7
+## I 集合 By Zayin [(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day7/I_Zayin.cpp)
+
