@@ -122,4 +122,8 @@
 
 # Day 7
 ## I 集合 By Zayin [(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day7/I_Zayin.cpp)
+  题解PPT说的已经很完全了。。。~~其实是个大水题~~
 
+# Day 8
+## I 岸边露伴的人生经验 By Zayin
+  首先做出如下转变 0->00,1->01,2->11,则|x-y|-> sx^sy。FWT一下即可。
