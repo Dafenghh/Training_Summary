@@ -22,7 +22,7 @@ O代表正在Focus
 
 Dafeng  |   A    |   B    |   C    |   D    |   E    |   F    |   G    |   H    |   I    |   J    |   K    |   L
 :------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:
-Day1    |[√][006]|[√][001]|[√][003]|        |        |     -  |[√][004]|[√][002]|    O   |[√][007]|        | - 
+Day1    |[√][006]|[√][001]|[√][003]|        |        |     -  |[√][004]|[√][002]|[√][008]|[√][007]|        | - 
 Day2    |        |        |        |        |        |        |        |        |        |        |        |  
 Day3    |        |        |        |        |        |        |        |        |        |        |    -   | - 
 Day4    |        |        |        |        |        |        |        |[√][005]|        |        |        | -
@@ -37,6 +37,7 @@ Day8    |        |        |        |        |        |        |        |        
 [005]: https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day4/H_dafeng.cpp
 [006]: https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day1/A_dafeng.cpp
 [007]: https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day1/J_dafeng.cpp
+[008]: https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day1/I_dafeng.cpp
 
 # Zayin (100-199)
 
