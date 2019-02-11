@@ -75,6 +75,29 @@
   还有就是__builtin_popcount只能算int的1个数，因为这个也WA了很久。。。  
   [位运算加速dp提交请戳这](https://loj.ac/problem/6564)
   
+## J Square Substrings By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day2/J_Zayin.cpp)
+  其实我看得不太懂题解ppt在说啥。。。下面是我YY的做法。
+  对于一个平方字串s[l..r],如果我们把(l,r)画在二维平面上，那么询问(L,R)就是问一个矩形（实际上是一个三角形，因为l<r,L<R）内点的个数。  
+  那么其实做法就很显然了，先把所有平方串抠出来转成二维点，再询问矩形（三角形）内点的个数。  
+  如果平方串的个数很少的话，那么这是一个经典的数据结构题。  
+  但我们可以构造出类似aaaaaa形式的串，这样的话平方串个数是O(n^2)的。  
+  回忆我们用后缀数组找平方串的过程，其实我们找的是平方字串组（开始下标连续且长度相同），那么最多有O(nlogn)个平方组。  
+  所以这题其实就是给出不超过O(nlogn)段斜率为1的离散点，询问一个矩形（三角形）内点的个数，这个随便用一些数据结构瞎搞就可以了。  
+  复杂度为O(p(n)logn+qlogn),p(n)是平方组的个数。  
+  而事实上，根据[runs theorem](http://cn.arxiv.org/pdf/1406.0263v7),一个串的runs(极大平方字串组)个数是O(n)级别的。  
+  所以真正的复杂度是O(nlogn+mlogn)。  
+  
+  
+  ## 吐槽
+  首先是对群里一些人的吐槽，TM我问一个问题，一堆人给出不知道是什么的答案，整整带偏我一个星期。。。
+  ```
+  BTW：平方串的个数是O(n)级别。  
+  这句话可以有两种解释。 
+  一：一个串的极大平方字串组的个数是O(n)级别的，这个是这题要用到的结论（其实也没啥用，证明复杂度而已。。。）  
+  二：一个串本质不同的（本原）平方字串个数是O(n)级别的，这个TM就是群里一堆人给的答案，不过也好，起码学习了一波先进的字符串姿势~  
+  ```
+  其次是对OJ的吐槽，这个OJ评测可不可以再苟一点。。。真的是活活被这个OJ气si。。。  
+  
 ## L Pyramid By Zayin[(代码点此）](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day2/L_Zayin.cpp)
   一个任意放置的三角形总能恰好被一个正立的三角形套住，剩下的都是推公式了。。。
   
@@ -120,3 +143,10 @@
 于是我们得到了正解。
 
 
+# Day 7
+## I 集合 By Zayin [(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day7/I_Zayin.cpp)
+  题解PPT说的已经很完全了。。。~~其实是个大水题~~
+
+# Day 8
+## I 岸边露伴的人生经验 By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day8/I_Zayin.cpp)
+  首先做出如下转变 0->00,1->01,2->11,则|x-y|-> (sx^sy)中1的个数。FWT后再统计一下即可。
