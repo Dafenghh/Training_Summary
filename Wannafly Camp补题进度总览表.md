@@ -48,9 +48,10 @@ Day2    |   ·    |   ·    |   ·    |   ·    |   ·    |        |   ·    |  
 Day3    |        |   ·    |[√][114]|        |        |[√][111]|        |[√][113]|   ·    |[√][112]|    -   | - 
 Day4    |        |        |        |        |   ·    |        |        |   ·    |        |   ·    |    ·   | -
 Day5    |   ·    |   O    |[√][115]|   ·    |        |[√][119]|   ·    |   ·    |        |        |    -   | -
-Day7    |        |[√][102]|        |        |        |        |        |        |[√][116]|   ·    |    -   | - 
+Day7    |        |[√][102]|        |        |        |        |        |        |[√][116]|[√][101]|    -   | - 
 Day8    |        |   ·    |   ·    |   ·    |        |   ·    |        |   ·    |[√][117]|   ·    |    -   | -
 
+[101]: https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day7/J_Zayin.cpp
 [102]: https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day7/B_Zayin.cpp
 [103]: https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day1/D_zayin.cpp
 [104]: https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day1/H_zayin.cpp
