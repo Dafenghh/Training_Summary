@@ -153,6 +153,10 @@
   类似的题还有今年青岛的某道容斥题，还有某场opentrain的压缩状态数的题（忘记哪场了）。。。
 
 # Day 7
+## B 重新定义字典序 By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day7/B_Zayin.cpp)
+  枚举B中是第p[k]小的数小于A，然后就相当于给出两个大小分别为x，y的数集，问在这两个集合中选出t个数，并且x中选的数不少于p的方案数。  
+  直接暴力枚举x或y中选的个数是O(n^2)的，但如果是枚举x和y的最小集合中选的数个数，复杂度就降到了O(nlogn)，因为一个位置最多被枚举O(logn)次。  
+  
 ## I 集合 By Zayin [(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day7/I_Zayin.cpp)
   题解PPT说的已经很完全了。。。~~其实是个大水题~~
 
