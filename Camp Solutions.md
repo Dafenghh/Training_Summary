@@ -142,6 +142,15 @@
 
 于是我们得到了正解。
 
+# Day 5
+
+## C Division By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day5/C_Zayin.cpp)
+
+## F Kropki By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day5/F_Zayin.cpp)
+  考虑容斥，首先肯定是规定哪些位置一定要满足两倍关系，其他任意，然后统计这种规定下的方案数，暴力算至少是O(2^n)的。  
+  可以观察到，根据上述规定，一条长度为n的数链被划分为若干条不相干的短链，实际上就是对n进行整数拆分，所以状态数是P(n)=20W，不至于O(2^n)。  
+  统计方案数其实是一个相同的过程，所以这题就轻易解决了，时间复杂度为O(P(n)*n).  
+  类似的题还有今年青岛的某道容斥题，还有某场opentrain的压缩状态数的题（忘记哪场了）。。。
 
 # Day 7
 ## I 集合 By Zayin [(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day7/I_Zayin.cpp)
