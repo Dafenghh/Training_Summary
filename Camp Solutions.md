@@ -159,6 +159,9 @@
   
 ## I 集合 By Zayin [(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day7/I_Zayin.cpp)
   题解PPT说的已经很完全了。。。~~其实是个大水题~~
+ 
+## J 强壮的排列 By Zayin [(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day7/J_Zayin.cpp)
+  神仙题。。。真的神仙题。。。我对生成函数计数一无所知【喷血】。。。
 
 # Day 8
 ## I 岸边露伴的人生经验 By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day8/I_Zayin.cpp)
