@@ -152,7 +152,7 @@
   统计方案数其实是一个相同的过程，所以这题就轻易解决了，时间复杂度为O(P(n)*n).  
   类似的题还有今年青岛的某道容斥题，还有某场opentrain的压缩状态数的题（忘记哪场了）。。。
  
-## G Nested Tree By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day5/G_Zayin.cpp)
+## H Nested Tree By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day5/H_Zayin.cpp)
   其实思路和普通的树上计数没什么区别。。。  
   赛场上想到的是虚树，所以觉得很难打，其实可以直接写树剖，超级容易写。。。  
   PS：我已深深地爱上了标记永久化的线段树【呲嘴笑】.
