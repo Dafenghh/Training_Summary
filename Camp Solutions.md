@@ -151,6 +151,13 @@
   可以观察到，根据上述规定，一条长度为n的数链被划分为若干条不相干的短链，实际上就是对n进行整数拆分，所以状态数是P(n)=20W，不至于O(2^n)。  
   统计方案数其实是一个相同的过程，所以这题就轻易解决了，时间复杂度为O(P(n)*n).  
   类似的题还有今年青岛的某道容斥题，还有某场opentrain的压缩状态数的题（忘记哪场了）。。。
+
+## G Least Common Multiple[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day5/G_Zayin.cpp)
+  首先转化原问题，可证(cai)明(ce)答案就是max PI(x+ai)/LCM(x+ai),因为x^n与 PI(x+ai)其实是同阶无穷大。 
+  观察上式，等价于求 算LCM(x+ai) 时最多可以除掉多大的数。  
+  那么根据中国剩余定理，每个素数贡献独立（可以根据x mod p^e的取值还原出x）。  
+  对于一个素数p，假设LCM中p的指数是e，那么一定存在一个i使得p^e|x+ai(LCM的性质)，所以对于其他的j，x+aj中p的指数就被除掉了。  
+  枚举e和i，统计剩下的j对指数的贡献即可。  
  
 ## H Nested Tree By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day5/H_Zayin.cpp)
   其实思路和普通的树上计数没什么区别。。。  
