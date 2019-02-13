@@ -151,6 +151,12 @@
   可以观察到，根据上述规定，一条长度为n的数链被划分为若干条不相干的短链，实际上就是对n进行整数拆分，所以状态数是P(n)=20W，不至于O(2^n)。  
   统计方案数其实是一个相同的过程，所以这题就轻易解决了，时间复杂度为O(P(n)*n).  
   类似的题还有今年青岛的某道容斥题，还有某场opentrain的压缩状态数的题（忘记哪场了）。。。
+ 
+## G Nested Tree By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day5/G_Zayin.cpp)
+  其实思路和普通的树上计数没什么区别。。。  
+  赛场上想到的是虚树，所以觉得很难打，其实可以直接写树剖，超级容易写。。。  
+  PS：我已深深地爱上了标记永久化的线段树【呲嘴笑】.
+  
 
 # Day 7
 ## B 重新定义字典序 By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day7/B_Zayin.cpp)
