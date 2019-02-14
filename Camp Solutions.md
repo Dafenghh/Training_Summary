@@ -4,7 +4,7 @@
 # Day1  
 ## A 机器人 By Dafeng [(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day1/A_dafeng.cpp)
 
-经过若干推(W)理(A), 可以得到一个漂亮的结论。先分别求出要经过的A类点和B类点横跨的区间，`[MinA, MaxA]`和`[MinB, MaxB]`. 然后再依次将这两个区间往左右两边扩展，扩展到第一个特殊点，得到新的区间`[LA, RA]`和`[LB, RB]`。（注意对于A，点s也是特殊点）。答案就是区间`[min(LA, LB), max(RA, RB)]`的长度*2，如果要走到B的点，则加上2k.
+经过若干推(W)理(A), 可以得到一个漂亮的结论。先分别求出要经过的A类点和B类点横跨的区间，`[MinA, MaxA]`和`[MinB, MaxB]`. 然后再将这两个区间往左右两边扩展，扩展到第一个特殊点，得到新的区间`[LA, RA]`和`[LB, RB]`。（注意对于A，点s也是特殊点）。答案就是区间`[min(LA, LB), max(RA, RB)]`的长度*2，如果要走到B的点，则加上2k.
 
 (根据这个结论，是不是可以出道丧心病狂的动态题呢嘿嘿嘿~)
 
