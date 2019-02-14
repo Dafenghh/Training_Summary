@@ -64,6 +64,7 @@
 
 ## K 星球大战 By Zayin[(代码点此）](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day1/K_Zayin.cpp)  
   首先建立1号点的bfs树，邪恶点的入侵一定是按照bfs树的深度入侵的。  
+  bfs树以外的边包含的点可视为关键点。
   然后就可以枚举光明点，预处理所有关键点到此光明点的距离，可以轻松计算出关键点被谁占领，关键点的多少级祖先是邪恶光明的分界线。
 
 # Day2
