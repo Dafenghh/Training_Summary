@@ -46,7 +46,7 @@
 ## H 割葱 By Zayin[(代码点此)](https://paste.ubuntu.com/p/xxbz9mT2PM/)
   令dp[l][r][h][k]表示[l,r]这个区间之前在高度h被割过，还剩k刀可以用的最大值。注意到[l,r]的有效区间只有O(n)个即可。  
   这种类型的题是利用了状态较少的性质————笛卡尔树的节点只有O(n)个。  
-  听说类似的题还有[ICPC 2016 Hong Kong G. Scaffolding](ttps://vjudge.net/contest/271028#problem/G) 
+  听说类似的题还有[ICPC 2016 Hong Kong G. Scaffolding](https://vjudge.net/contest/271028#problem/G) 
   BTW,其实可以不写背包。  
 
 ## I 起起落落 By Zayin[(代码点此)](https://paste.ubuntu.com/p/Mq2GGk5mwK/)
