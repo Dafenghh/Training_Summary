@@ -21,7 +21,7 @@
 
 假设答案具有`A*2520+B`的形式，那么我们可以用求出来的`dp[2520*2^k][i][j]`的值逐位确定A，接着使用`dp[t][i][j], t<=2520`的值确定B，得到答案。
 
-## D 超难的数学题 By Zayin[未AC代码](https://paste.ubuntu.com/p/sstjqyhZ38/)[AC代码](https://paste.ubuntu.com/p/3c5NX4Gpxr/)  [Java版本](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day1/D_dafeng.java)
+## D 超难的数学题 By Zayin  [未AC代码](https://paste.ubuntu.com/p/sstjqyhZ38/)[AC代码](https://paste.ubuntu.com/p/3c5NX4Gpxr/)  [Java版本](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day1/D_dafeng.java)
 
   PS:样例的答案应该是1464！！！  太过分了！！
   
