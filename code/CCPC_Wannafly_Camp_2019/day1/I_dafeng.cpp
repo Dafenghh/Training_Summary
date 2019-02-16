@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 const int N = 1e5+10;
-const int B = 120;
+const int B = 200;
 const int M = N/B+10;
 int bit[N], a[N], n, blk[M], blk_tot[M], f[N];
 inline int lowbit(int i) {
