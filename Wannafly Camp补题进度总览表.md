@@ -73,6 +73,7 @@ Day8    |        |   ·    |   ·    |   ·    |        |   ·    |        |   �
 [118]: https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day2/J_Zayin.cpp
 [119]: https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day5/F_Zayin.cpp
 [120]: https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day5/G_Zayin.cpp
+[121]: https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day2/G_Zayin.cpp
 
 # Dasin (200-299)
 
