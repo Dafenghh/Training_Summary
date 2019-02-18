@@ -1,0 +1,102 @@
+#include<bits/stdc++.h>
+#define maxn 2050
+using namespace std;
+
+int n,m;
+
+char s[maxn];
+
+bitset<maxn> vert[maxn];
+bitset<maxn> occur[maxn],nei[maxn];
+
+void init()
+{
+	scanf("%d%d",&n,&m);
+	for (int i=0;i<n;++i)
+		occur[i].reset(),nei[i].reset();
+		
+	for (int k=0;k<m;++k)
+	{
+		scanf("%s",s);
+        vert[k].reset();
+		for (int i=0;i<n;++i)
+			if (s[i]=='1')
+				vert[k].set(i),occur[i].set(k);
+		if (vert[k].count()>1)	continue;
+        vert[k].reset();
+		for (int i=0;i<n;++i)
+			occur[i].reset(k);
+	}
+	for (int i=0;i<n;++i)
+		for (int j=0;j<n;++j)
+			if (i!=j&&(occur[i]&occur[j])==occur[i])
+				nei[i].set(j);
+}
+
+bool vis[maxn];
+
+vector<pair<int,int>> ans;
+
+void update(int i,int j)
+{
+	vis[i]=1;
+	
+	bool flag=0;
+	for (int k=0;k<n;++k)
+		nei[k].reset(i);
+	for (int k=0;k<m;++k)
+		if (vert[k][i])
+		{
+			vert[k][i]=0;
+			if (vert[k].count()==1)
+				flag=1,vert[k][j]=0,occur[j][k]=0;
+		}
+	
+	if (!flag)	return ;
+	for (int k=0;k<n;++k)
+    {
+		if (!vis[k]&&j!=k&&(occur[j]&occur[k])==occur[j])
+			nei[j].set(k);
+		if (!vis[k]&&j!=k&&(occur[j]&occur[k])==occur[k])
+			nei[k].set(j);
+    }
+}
+
+int solve()
+{
+	ans.clear();
+	for (int i=0;i<n;++i)
+		vis[i]=0;
+		
+	for (int i,j,k=1;k<n;++k)
+	{
+		for (i=0;i<n;++i)
+			if (!vis[i]&&nei[i].any())
+				break;
+		
+		if (i==n)	return puts("NO");
+			
+		for (j=0;j<n;++j)
+			if (!vis[j]&&nei[i][j])
+				break;
+//		cout<<"find:"<<i<<" "<<nei[i]<<" "<<j<<endl;
+		ans.emplace_back(i+1,j+1);
+		update(i,j);
+	}
+	
+	puts("YES");
+	for (auto p:ans)
+		printf("%d %d\n",p.first,p.second);
+}
+
+int main()
+{
+	int T;
+	scanf("%d",&T);
+	while (T--)
+	{
+		init();
+		solve();
+	}
+	return 0;
+}
