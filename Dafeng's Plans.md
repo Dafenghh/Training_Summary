@@ -10,7 +10,7 @@
 1|[Knapsack][1] |    |
 2|[烧桥计划][2]   |    |
 3|Road Connectivity(注1) |   |
-4|[Rikka with Subsequences][4]|   |
+4|[Rikka with Subsequences][4]|[√][14]|
 5|[Non-palidromic cutting][5]|     |
 6|[Modern Art Plagiarism][6] |    |
 7|[波浪][7]  |   | 
@@ -37,3 +37,4 @@
 [11]: https://vjudge.net/problem/ZOJ-3951
 [12]: https://vjudge.net/contest/270330#problem/I
 [13]: https://www.lydsy.com/JudgeOnline/problem.php?id=5210
+[14]: https://github.com/Dafenghh/Training_Summary/blob/master/code/20181028/d.cpp
