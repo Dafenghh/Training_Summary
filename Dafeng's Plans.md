@@ -10,7 +10,7 @@
 1|[Knapsack][1] |    |
 2|[烧桥计划][2]   |    |
 3|Road Connectivity(注1) |   |
-4|[Rikka with Subsequences][4]|[√][14]|
+4|[Rikka with Subsequences][4]|[√][14]|好题！其实是很简单的DP：暴力转移i,j,k O(n^6) --> 分阶段转移，O(n^4)  -->  逐单位转移(流式)，O(n^3)
 5|[Non-palidromic cutting][5]|     |
 6|[Modern Art Plagiarism][6] |    |
 7|[波浪][7]  |   | 
