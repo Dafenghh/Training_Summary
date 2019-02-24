@@ -28,15 +28,20 @@ void solve() {
     for (int i = 0; i <= n; i++)
     for (int j = 0; j <= n; j++)
     for (int k = 0; k <= n; k++) {
-        if (a[i] == a[j] && a[j] == a[k]) { // valid 0
-            add(ans, dp[i][j][k][0]);
-            add(dp[i+1][j][k][1], dp[i][j][k][0]);
-        }
-        if (a[j] == a[k]) {
-            add(dp[i+1][j][k][1], dp[i][j][k][1]);
-            if (m[a[j]][a[i]]) add(dp[i][j+1][k][2], dp[i][j][k][1]);
-        }
+    	add(dp[i][j][k+1][0], dp[i][j][k][0]);
+    	add(dp[i+1][j][k][1], dp[i][j][k][1]);
+    	add(dp[i][j+1][k][2], dp[i][j][k][2]);
+      	
+    	if (a[j] == a[k]) {
+	    	add(ans, dp[i][j][k][0]);
+	        add(dp[i+1][j][k][1], dp[i][j][k][0]);   	
+    	}          
+            
+        if (m[a[j]][a[i]]) add(dp[i][j+1][k][2], dp[i][j][k][1]);
+    	if (a[i] == a[j]) add(dp[i][j][k+1][0], dp[i][j][k][2]);   
     }
+    add(ans, Mod-1);
+    printf("%d\n", ans);
 }
 
 
