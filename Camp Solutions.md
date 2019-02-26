@@ -201,7 +201,8 @@
 ## B Diameter By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day5/B_Zayin.cpp)
 其实真的是可以做到O( (nlogn)^2 )的。。。因为转移是个卷积的形式，所以理论上套个分治FFT就可以做到一轮转移O(nlog^2n)。。。  
 但从实际效果来看。。。emmmmmmm。。。FFT常数太大。。。任意模数导致常数又要乘个4。。。CDQ。。。感觉常数乘起来比n还大了。。。  
-~~专心优化常数吧~~
+~~专心优化常数吧~~  
+最后我成功地把O(n^3)卡在700ms以内。。。也算不错？
 
 ## C Division By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day5/C_Zayin.cpp)
 
