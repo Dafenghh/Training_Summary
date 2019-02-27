@@ -204,6 +204,11 @@
 ~~专心优化常数吧~~  
 最后我成功地把O(n^3)卡在700ms以内。。。也算不错？
 
+## D Doppelblock By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day5/D_Zayin.cpp)
+可能是因为太久没有碰到过大搜索的题，所以在赛场上没有想到爆搜。。。  
+其实知道是搜索后还挺好写的，毕竟有太多可以剪枝的地方了。  
+但最后也只是33ms，并没有做到dls的0ms，是我太菜了，想不到怎么剪下去。。。  
+
 ## C Division By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day5/C_Zayin.cpp)
 
 ## F Kropki By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day5/F_Zayin.cpp)
