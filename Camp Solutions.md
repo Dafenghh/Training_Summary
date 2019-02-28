@@ -163,15 +163,11 @@
   所以真正的复杂度是O(nlogn+mlogn)。  
   
   
-  ## 吐槽
-  首先是对群里一些人的吐槽，TM我问一个问题，一堆人给出不知道是什么的答案，整整带偏我一个星期。。。
-  ```
+  ##### 后记
   BTW：平方串的个数是O(n)级别。  
   这句话可以有两种解释。 
   一：一个串的极大平方字串组的个数是O(n)级别的，这个是这题要用到的结论（其实也没啥用，证明复杂度而已。。。）  
-  二：一个串本质不同的（本原）平方字串个数是O(n)级别的，这个TM就是群里一堆人给的答案，不过也好，起码学习了一波先进的字符串姿势~  
-  ```
-  其次是对OJ的吐槽，这个OJ评测可不可以再苟一点。。。真的是活活被这个OJ气si。。。  
+  二：一个串本质不同的（本原）平方字串个数是O(n)级别的，证明详见[2019集训队作业Round11串串的题解](https://github.com/fjzzq2002/winter_mutual_training_contest_2018/tree/master/Round%2011%20%2011-26)。 
   
 ## L Pyramid By Zayin[(代码点此）](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day2/L_Zayin.cpp)
   一个任意放置的三角形总能恰好被一个正立的三角形套住，剩下的都是推公式了。。。
