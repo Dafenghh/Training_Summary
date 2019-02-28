@@ -70,6 +70,22 @@
 
 # Day2
 
+## B Erase Numbers III By Zayin[(代码点此）](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day2/B_Zayin.cpp)
+  易知删除i个数字一定是从删掉i-1个数字后的答案再删掉一个得到的，所以只要知道删除一个怎么做这题就搞完了。  
+  最暴力的方法肯定是建个后缀数组暴力匹配，但（理论上？）会被出题人卡掉，因为n*len已经上亿了，还要乘个后缀数组的常数，~~卡掉很正常~~  
+  所以要寻求更优的解法。  
+  首先比较两个数的大小，可以认为是先比较数字串的长度再比较字典序大小，所以删数字一定是删长度最小的数字。  
+  那么字符串比较的偏移量就已经知道了，所以从后往前扫一下就可以知道哪个更优了。  
+
+## D Honeycomb By Zayin[(代码点此）](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day2/D_Zayin.cpp)
+  题目里藏着两句很深的话。。。  
+  一：所有测试数据的特别格子的数量之和不超过3000。  
+  二：保证每个不特别的格子没有可以穿行的边界。  
+    
+  所以上面的加起来就是说总有效格子（都是特别格子）是3000，因为不特别格子没有边向外连，可以忽略。  
+  又因为这个图点的度数不超过6，所以跑一次最小割是O(n)的。。。  
+  所以暴力建个最小割树就做完了。。。
+
 ## G Routes By Zayin[(代码点此）](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day2/G_Zayin.cpp)
   观察一：任意两点的最短路不超过2k-1.  
     
@@ -199,15 +215,15 @@
 # Day 5
 
 ## B Diameter By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day5/B_Zayin.cpp)
-其实真的是可以做到O( (nlogn)^2 )的。。。因为转移是个卷积的形式，所以理论上套个分治FFT就可以做到一轮转移O(nlog^2n)。。。  
-但从实际效果来看。。。emmmmmmm。。。FFT常数太大。。。任意模数导致常数又要乘个4。。。CDQ。。。感觉常数乘起来比n还大了。。。  
-~~专心优化常数吧~~  
-最后我成功地把O(n^3)卡在700ms以内。。。也算不错？
+  其实真的是可以做到O( (nlogn)^2 )的。。。因为转移是个卷积的形式，所以理论上套个分治FFT就可以做到一轮转移O(nlog^2n)。。。  
+  但从实际效果来看。。。emmmmmmm。。。FFT常数太大。。。任意模数导致常数又要乘个4。。。CDQ。。。感觉常数乘起来比n还大了。。。  
+  ~~专心优化常数吧~~  
+  最后我成功地把O(n^3)卡在700ms以内。。。也算不错？
 
 ## D Doppelblock By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day5/D_Zayin.cpp)
-可能是因为太久没有碰到过大搜索的题，所以在赛场上没有想到爆搜。。。  
-其实知道是搜索后还挺好写的，毕竟有太多可以剪枝的地方了。  
-但最后也只是33ms，并没有做到dls的0ms，是我太菜了，想不到怎么剪下去。。。  
+  可能是因为太久没有碰到过大搜索的题，所以在赛场上没有想到爆搜。。。  
+  其实知道是搜索后还挺好写的，毕竟有太多可以剪枝的地方了。  
+  但最后也只是33ms，并没有做到dls的0ms，是我太菜了，想不到怎么剪下去。。。  
 
 ## C Division By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day5/C_Zayin.cpp)
 
