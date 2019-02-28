@@ -86,6 +86,11 @@
   又因为这个图点的度数不超过6，所以跑一次最小割是O(n)的。。。  
   所以暴力建个最小割树就做完了。。。
 
+## E Power of Function By Zayin[(代码点此）](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day2/E_Zayin.cpp)
+  ~~易知~~f^m(n)=1当且仅当n在k进制下各个数位的和加上位长=m+1。  
+  ~~所以这是一道很简单的数位DP~~  
+  不要偷懒写成O(log^2n)就没什么大问题了~
+
 ## G Routes By Zayin[(代码点此）](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day2/G_Zayin.cpp)
   观察一：任意两点的最短路不超过2k-1.  
     
