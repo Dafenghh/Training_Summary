@@ -164,10 +164,12 @@
   
   
   ##### 后记
-  BTW：平方串的个数是O(n)级别。  
-  这句话可以有两种解释。 
-  一：一个串的极大平方字串组的个数是O(n)级别的，这个是这题要用到的结论（其实也没啥用，证明复杂度而已。。。）  
-  二：一个串本质不同的（本原）平方字串个数是O(n)级别的，证明详见[2019集训队作业Round11串串的题解](https://github.com/fjzzq2002/winter_mutual_training_contest_2018/tree/master/Round%2011%20%2011-26)。 
+    
+  平方串的个数是O(n)级别。    
+    
+  这句话可以有两种解释。   
+  一：一个串的极大平方字串组的个数是O(n)级别的，这个是这题要用到的结论（其实也没啥用，证明复杂度而已。。。）    
+  二：一个串本质不同的（本原）平方字串个数是O(n)级别的，证明详见[2019集训队作业Round11串串的题解](https://github.com/fjzzq2002/winter_mutual_training_contest_2018/tree/master/Round%2011%20%2011-26)。   
   
 ## L Pyramid By Zayin[(代码点此）](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day2/L_Zayin.cpp)
   一个任意放置的三角形总能恰好被一个正立的三角形套住，剩下的都是推公式了。。。
