@@ -215,6 +215,16 @@
 
 于是我们得到了正解。
 
+## J 跑跑跑路 By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day4/J_Zayin.cpp)
+
+显然的一点是x，y贡献独立，那么只需考虑一维的情况。  
+假设第一轮第i个集合点的坐标是x1[i],第二轮第i个集合点的坐标是x2[i],那么对答案的贡献就是sigma (x[i]-x1[f[i]])^2+(x1[f[i]]-x2[s[i]])^2.  
+所以相当于是对有着1000个变量的函数求最小值，~~数分告诉我们这时候随便求个导就能求极值了~~  
+对函数求完偏导后是一次方程组，令偏导=0解出各个变量的取值即可。  
+  
+1000个变量做高斯消元会T？  
+有个trick就是第二轮集合点的坐标是完全由第一轮的集合点所决定的，所以独立的变量其实只有500个。  
+
 # Day 5
 
 ## B Diameter By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day5/B_Zayin.cpp)
