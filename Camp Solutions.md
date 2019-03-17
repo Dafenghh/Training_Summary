@@ -188,6 +188,8 @@
   
 ## H 涂鸦 By Zayin[(代码点此）](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day3/H_Zayin.cpp)
   标记永久化其实还挺好写的...
+## I 石头剪刀布 By Zayin[(代码点此）](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day3/I_Zayin.cpp)
+  小清新并查集。
 
 ## J 子序列 By Zayin[(代码点此）](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day3/J_Zayin.cpp)
   我们先考虑一个普通字符串怎么统计子序列个数。  
