@@ -24,6 +24,20 @@
 注1: XIX Open Cup GP of Udmurtia, 没有题源。
 
 
+
+
+## 2. 紧急刷题列表
+
+Problem        |Comment             |Done
+:-------------:|:------------------:|:----:
+[cf464E][15]   |dijk 主席树          |
+[20190316E][16]|转完全图匹配         |
+[20190317I][17]|队友过的好题         |
+[20190317K][18]|不算难的题 欧拉回路   |
+[20190317F][18]|树上莫队 留意team1,5代码|
+
+
+
 [1]: http://opentrains.snarknews.info/~ejudge/team.cgi?contest_id=001519
 [2]: https://www.lydsy.com/JudgeOnline/problem.php?id=5424
 
@@ -38,3 +52,7 @@
 [12]: https://vjudge.net/contest/270330#problem/I
 [13]: https://www.lydsy.com/JudgeOnline/problem.php?id=5210
 [14]: https://github.com/Dafenghh/Training_Summary/blob/master/code/20181028/d.cpp
+[15]: https://codeforces.com/contest/464/problem/E
+[16]: https://codeforces.com/group/wmhDiB5PTN/contest/240683
+[17]: https://codeforces.com/group/wmhDiB5PTN/contest/240806
+[18]: https://codeforces.com/group/wmhDiB5PTN/contest/240806
