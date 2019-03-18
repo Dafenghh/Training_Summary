@@ -37,7 +37,7 @@ Regional 金
 
 [ICPC Camp 2019补题进度总览](https://github.com/Dafenghh/Training_Summary/blob/master/ICPC%20Camp%202019%E8%A1%A5%E9%A2%98%E8%BF%9B%E5%BA%A6%E6%80%BB%E8%A7%88%E8%A1%A8.md)
 
-[ICPC Camp 2019题解]((https://github.com/Dafenghh/Training_Summary/blob/master/ICPC%20Camp%202019%E9%A2%98%E8%A7%A3.md))
+[ICPC Camp 2019题解](https://github.com/Dafenghh/Training_Summary/blob/master/ICPC%20Camp%202019%E9%A2%98%E8%A7%A3.md)
 
 [达烽的计划](https://github.com/Dafenghh/Training_Summary/blob/master/Dafeng's%20Plans.md)
     
