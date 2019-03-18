@@ -27,7 +27,7 @@ Day1    |        |        |        |        |    -   |        |        |        
 
 Zayin   |   A    |   B    |   C    |   D    |   E    |   F    |   G    |   H    |   I    |   J    |   K    |   L    |  M
 :------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:
-Day1    |        |        |        |[√][101]|    -   |[√][100]|        |        |        |        |        |        |-
+Day1    |        |        |        |[√][101]|    -   |[√][100]|[√][102]|        |        |        |        |        |-
 
 [100]: https://github.com/Dafenghh/Training_Summary/blob/master/code/ICPC_Camp_2019/Day1/F_zayin.cpp
 [101]: https://github.com/Dafenghh/Training_Summary/blob/master/code/ICPC_Camp_2019/Day1/D_zayin.cpp
