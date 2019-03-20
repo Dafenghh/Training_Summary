@@ -227,6 +227,10 @@
 1000个变量做高斯消元会T？  
 有个trick就是第二轮集合点的坐标是完全由第一轮的集合点所决定的，所以独立的变量其实只有500个。  
 
+## K 两条路径 By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day4/K_Zayin.cpp)
+主席树实现二进制高精度，支持单位加减法，高精加法，还行.  
+~~我感觉我写的高精可以拿去当板子~~
+
 # Day 5
 
 ## B Diameter By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day5/B_Zayin.cpp)
