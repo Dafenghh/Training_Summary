@@ -235,6 +235,7 @@
 主席树实现二进制高精度，支持单位加减法，高精加法，还行.  
 ~~我感觉我写的高精可以拿去当板子~~
 (Comment By Dafeng: 你太强了)
+(Reply to Dafeng By Zayin： fAKE!)
 # Day 5
 
 ## B Diameter By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day5/B_Zayin.cpp)
