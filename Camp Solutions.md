@@ -175,6 +175,10 @@
   一个任意放置的三角形总能恰好被一个正立的三角形套住，剩下的都是推公式了。。。
   
 # Day3
+## B 集合 By Zayin[(代码点此）](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day3/B_Zayin.cpp)
+镜面反射点。  
+（计算几何算反三角函数时要特别注意精度误差造成的影响，最好对-1和1取个max,min）
+  
 ## C 小游戏 By Zayin[(代码点此）](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day3/C_Zayin.cpp)
   dp好题！！！非常好！！！  
   重新回顾了姿势：缺什么状态就补上什么状态，直到可以完美表示为止。  
