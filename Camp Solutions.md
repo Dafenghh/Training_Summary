@@ -238,6 +238,9 @@
 (Reply to Dafeng By Zayin： fAKE!)
 # Day 5
 
+## A Cactus Draw By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day5/A_Zayin.cpp)
+仿照树的版本，只要把环拉平就可以了。  
+（比赛时一直想着斜着拉，感觉要讨论好久，其实拉平什么情况都没有。。。还是太菜了【叹气】）
 ## B Diameter By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day5/B_Zayin.cpp)
   其实真的是可以做到O( (nlogn)^2 )的。。。因为转移是个卷积的形式，所以理论上套个分治FFT就可以做到一轮转移O(nlog^2n)。。。  
   但从实际效果来看。。。emmmmmmm。。。FFT常数太大。。。任意模数导致常数又要乘个4。。。CDQ。。。感觉常数乘起来比n还大了。。。  
