@@ -201,6 +201,10 @@
 
 # Day 4
 
+## E 黄金矿工 By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day4/E_Zayin.cpp)
+  记dp[s]为取完s中金块的最短时间，转移相当于是给定若干个凸包，问碰到某个凸包的最小时间。  
+  按照计算几何的套路，将极角切分，使得每一份里面都只有线段，那么剩下的就是在这些线段中三分出最小值或直接手算最小值。  
+
 ## H 命命命运 By Dafeng [(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day4/H_dafeng.cpp)
 
 我们需要求出对于i号玩家，第j轮，获得第k块地的概率，然后把所有j,k取值下的概率累加起来，就是每个人获得地的块数的期望。i号玩家，获得第j块地等价于`1..(i-1)`号玩家前j轮不曾走到k，i号玩家第j轮第一次走到k，`(i+1)..6`号玩家前(j-1)轮未曾走到k.
