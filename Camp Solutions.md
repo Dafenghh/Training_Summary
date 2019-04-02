@@ -291,3 +291,11 @@
 # Day 8
 ## I 岸边露伴的人生经验 By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day8/I_Zayin.cpp)
   首先做出如下转变 0->00,1->01,2->11,则|x-y|-> (sx^sy)中1的个数。FWT后再统计一下即可。
+
+## J 去音乐会 By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day8/H_Zayin.cpp)
+  （看懂了题解的做法，但感觉有点复杂，下面是我自己想的~~更简单~~做法）  
+  考虑这题的几何意义，即有一条长度为n的线段，每隔d个单位把d-c个单位染成黑色，然后再每隔b个单位用一个长度为b-a的括号框住线段，问框起来的总黑色线段长度。  
+  括号问题考虑差分，对于一个括号来说，计算线段从头直到这个括号的总黑色距离即可。  
+  如果该括号的距离为bx+a,即要计算[(bx+a)/d]*(d-c)+max((bx+a)%d-c)。  
+  把max拆开，用拓展欧几里得加速即可。  
+  
