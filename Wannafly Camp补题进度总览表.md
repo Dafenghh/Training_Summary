@@ -47,7 +47,7 @@ Day8    |        |        |        |        |        |        |        |        
 Zayin   |   A    |   B    |   C    |   D    |   E    |   F    |   G    |   H    |   I    |   J    |   K    |   L
 :------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:
 Day1    |[√][128]|        |        |[√][103]|        |        |        |[√][104]|[√][105]|[√][106]|[√][109]| - 
-Day2    |   ·    |[√][124]|   ·    |[√][126]|[√][127]|        |[√][121]|        |[√][107]|[√][118]|        |[√][110]
+Day2    |[√][139]|[√][124]|   ·    |[√][126]|[√][127]|        |[√][121]|        |[√][107]|[√][118]|        |[√][110]
 Day3    |        |[√][134]|[√][114]|        |[√][135]|[√][111]|        |[√][113]|[√][130]|[√][112]|    -   | - 
 Day4    |        |        |        |        |[√][132]|        |        |[√][123]|        |[√][129]|[√][131]| -
 Day5    |[√][133]|[√][122]|[√][115]|[√][125]|        |[√][119]|[√][120]|[√][100]|        |        |    -   | -
@@ -92,6 +92,7 @@ Day8    |        |[√][138]|   ·    |   ·    |        |   ·    |        |[�
 [136]: https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day8/H_Zayin.cpp
 [137]: https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day8/J_Zayin.cpp
 [138]: https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day8/B_Zayin.cpp
+[139]: https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day2/A_Zayin.cpp
 
 # Dasin (200-299)
 
