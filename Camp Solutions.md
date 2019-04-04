@@ -70,6 +70,9 @@
 
 # Day2
 
+## A Erase Nodes By Zayin[(代码点此）](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day2/A_Zayin.cpp)
+  千言万语汇成一句话：OJ不规范，做题两行泪。。。
+
 ## B Erase Numbers III By Zayin[(代码点此）](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day2/B_Zayin.cpp)
   易知删除i个数字一定是从删掉i-1个数字后的答案再删掉一个得到的，所以只要知道删除一个怎么做这题就搞完了。  
   最暴力的方法肯定是建个后缀数组暴力匹配，但（理论上？）会被出题人卡掉，因为n*len已经上亿了，还要乘个后缀数组的常数，~~卡掉很正常~~  
