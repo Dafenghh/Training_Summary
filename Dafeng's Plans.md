@@ -35,7 +35,7 @@ Problem            |Comment             |Done
 [20190317I][17]    |队友过的好题         |
 [20190317K][18]    |不算难的题 欧拉回路   |
 [20190317F][18]    |树上莫队 留意team1,5代码|
-[cjk 2019A T3][20] |贪心                 |
+[cjk 2019A T3][20] |贪心，大样例的线段树写得好辛苦（因为菜）  |[√][21]
 
 
 [1]: http://opentrains.snarknews.info/~ejudge/team.cgi?contest_id=001519
@@ -59,3 +59,4 @@ Problem            |Comment             |Done
 
 [19]: https://github.com/Dafenghh/Training_Summary/blob/master/code/dafeng/cf265E.cpp
 [20]: https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050e01/0000000000069881
+[21]: https://github.com/Dafenghh/Training_Summary/blob/master/code/dafeng/20190324/c.cpp
