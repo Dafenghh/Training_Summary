@@ -42,7 +42,7 @@ Day8    |        |        |        |        |        |        |        |        
 [010]: https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day1/D_dafeng.java
 [011]: https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day4/K_dafeng.cpp
 
-# Zayin (100-199)
+# Zayin (100-199) (弃坑)
 
 Zayin   |   A    |   B    |   C    |   D    |   E    |   F    |   G    |   H    |   I    |   J    |   K    |   L
 :------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:
