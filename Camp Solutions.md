@@ -70,6 +70,9 @@
 
 # Day2
 
+## A Erase Nodes By Zayin[(代码点此）](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day2/A_Zayin.cpp)
+  千言万语汇成一句话：OJ不规范，做题两行泪。。。
+
 ## B Erase Numbers III By Zayin[(代码点此）](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day2/B_Zayin.cpp)
   易知删除i个数字一定是从删掉i-1个数字后的答案再删掉一个得到的，所以只要知道删除一个怎么做这题就搞完了。  
   最暴力的方法肯定是建个后缀数组暴力匹配，但（理论上？）会被出题人卡掉，因为n*len已经上亿了，还要乘个后缀数组的常数，~~卡掉很正常~~  
@@ -289,5 +292,22 @@
   神仙题。。。真的神仙题。。。我对生成函数计数一无所知【喷血】。。。
 
 # Day 8
+## H 二人的白皇 By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day8/H_Zayin.cpp)
+  考虑点分治。  
+  但如果每次分治都重新计算距离分治点的个数，最坏情况是O(路径长度）的。  
+  ~~不难发现~~其实很多计算都是重复的，比如分治点与分治点之间的子树，其实可以预处理出来，不必每次都直接算。（这是属于点分的一类小技巧？）  
+  考虑预处理的时间复杂度，每个分治点的子树不会超过子树的一半，所以每次分治下去和它相邻的子树大小减半，所以和他相邻的子树总大小是O(sz[i])的。  
+  由点分树的结构可知，O(sigma sz[i])=O(nlogn)。  
+  所以总复杂度是O(mlogn+nlogn)。  
+
 ## I 岸边露伴的人生经验 By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day8/I_Zayin.cpp)
   首先做出如下转变 0->00,1->01,2->11,则|x-y|-> (sx^sy)中1的个数。FWT后再统计一下即可。
+
+## J 去音乐会 By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day8/J_Zayin.cpp)
+  （看懂了题解的做法，但感觉有点复杂，下面是我自己想的~~更简单~~做法）  
+  考虑这题的几何意义，即有一条长度为n的线段，每隔d个单位把d-c个单位染成黑色，然后再每隔b个单位用一个长度为b-a的括号框住线段，问框起来的总黑色线段长度。  
+    
+  括号问题考虑差分，对于一个括号来说，计算线段从头直到这个括号的总黑色长度即可。  
+  如果该括号的距离为bx+a,即要计算[(bx+a)/d]*(d-c)+max((bx+a)%d-c)。  
+  把max拆开，用拓展欧几里得加速即可。  
+  
