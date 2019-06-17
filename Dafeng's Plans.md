@@ -38,6 +38,17 @@ Problem        |Comment             |Done
 
 
 
+
+
+## 3.比赛，日常训练总结
+
+
+### 20190615 TCO beijing onsite
+
+
+
+### 20190616 计蒜客复赛
+
 [1]: http://opentrains.snarknews.info/~ejudge/team.cgi?contest_id=001519
 [2]: https://www.lydsy.com/JudgeOnline/problem.php?id=5424
 
