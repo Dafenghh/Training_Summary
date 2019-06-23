@@ -36,7 +36,12 @@ Problem            |Comment             |Done
 [20190317K][18]    |不算难的题 欧拉回路   |
 [20190317F][18]    |树上莫队 留意team1,5代码|
 [cjk 2019A T3][20] |贪心，大样例的线段树写得好辛苦（因为菜）  |[√][21]
-
+[计蒜客2019复赛C][22]|FWT，待补|
+[计蒜客2019复赛F][23]|思维题，待补|
+[计蒜客2019复赛G][24]|生成函数，待补|
+TCO beijing D|有趣的构造题，一定要补|
+srm 761 1A|数学or模拟题?|
+srm 761 1C|dp?|
 
 ## 3. TC刷题计划
 http://wronganswer.blog.uoj.ac/blog/2285
@@ -65,6 +70,12 @@ http://wronganswer.blog.uoj.ac/blog/2285
 
 听说G题是道生成函数，F题是道思维题。都要补一补。
 
+### 20190622 TC SRM 761
+第一场SRM，第一题就不会做……
+然后第二题想到了正解，但没有算复杂度，导致一个测试点T了，fst……
+于是成功爆零。
+要好好算复杂度啊，发现不怎么稳的时候加点剪枝就过了。
+
 [1]: http://opentrains.snarknews.info/~ejudge/team.cgi?contest_id=001519
 [2]: https://www.lydsy.com/JudgeOnline/problem.php?id=5424
 
@@ -87,3 +98,6 @@ http://wronganswer.blog.uoj.ac/blog/2285
 [19]: https://github.com/Dafenghh/Training_Summary/blob/master/code/dafeng/cf265E.cpp
 [20]: https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050e01/0000000000069881
 [21]: https://github.com/Dafenghh/Training_Summary/blob/master/code/dafeng/20190324/c.cpp
+[22]: https://nanti.jisuanke.com/t/39613
+[23]: https://nanti.jisuanke.com/t/39616
+[24]: https://nanti.jisuanke.com/t/39617
