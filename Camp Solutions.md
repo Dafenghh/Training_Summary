@@ -290,6 +290,9 @@
  
 ## J 强壮的排列 By Zayin [(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day7/J_Zayin.cpp)
   神仙题。。。真的神仙题。。。我对生成函数计数一无所知【喷血】。。。
+    
+  后更：除了题解的做法，还有一种基于容斥的cdq分治，O(nlog^2n)  
+  再更：假的，再进一步化简得到的就和敦爷的方程一模一样。。。  
 
 # Day 8
 ## H 二人的白皇 By Zayin[(代码点此)](https://github.com/Dafenghh/Training_Summary/blob/master/code/CCPC_Wannafly_Camp_2019/day8/H_Zayin.cpp)
