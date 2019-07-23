@@ -75,7 +75,7 @@ Day8    |        |        |        |        |        |        |        |        
 Day9    |        |        |        |        |        |        |        |        |        |        |        |        |
 Day10   |        |        |        |        |        |        |        |        |        |        |        |        |
 
-[200]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day1/D_zayin.cpp
+[200]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/Day1/D_zayin.cpp
 [201]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day1/K_zayin.cpp
 [202]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day1/L_zayin.cpp
 
