@@ -23,7 +23,7 @@ M题敲得也有些慢，有些特殊情况没有考虑到。还敲错了一个�
 
 #### Zayin
 最近演的死去活来的，一上来就被D关住了，还是Dafeng比较强帮我解的围。  
-然后就是快乐自（yan）闭（xi）三小时，甚至还让wcy1122去抄了分多项式全家桶，好像还是假的？  
+然后就是快乐自（yan）闭（xi）三小时，甚至还让wcy1122去抄了份多项式全家桶，好像还是假的板子？  
 后期可能清醒了一点，连着就把K，L给过了，然后B敲了一发假做法T掉了，虽然后来想到了正解但已经没有时间了...  
   
 演员是我本人了，每次一到关键时候就演起来了....  
@@ -35,7 +35,7 @@ M题敲得也有些慢，有些特殊情况没有考虑到。还敲错了一个�
 #### A Blank  (By dafeng)
 
 `dp[i][j][k][t]`表示前i个位置，从位置i往左看，第一个不同的位置是j，第二个不同的位置是k，第三个不同的位置是t的方案数。转移O(4).
-#### B Operation [(By Zayin)](https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/Day1/B_Zayin.cpp)
+#### B Operation [(By Zayin)](https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day1/B_Zayin.cpp)
 在比赛时想着往后维护线性基，但这样做的后果是不能知道线性基的大小顺序。  
 所以考虑往前维护，相当于在前一个线性基集的基础上再加一个数。  
 那么如果遇到一个可以替换的，肯定是把他替换掉最优（尽量往右），然后替换掉后继续往低位类似更新即可。  
