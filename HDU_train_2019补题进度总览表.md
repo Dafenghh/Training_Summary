@@ -1,5 +1,19 @@
-HDU多校补题进度总览
+# HDU多校补题进度总览
 
+[题解戳这里](https://github.com/Dafenghh/Training_Summary/blob/master/HDU_train_2019.md)
+
+
+## 补题进度总览表
+
+√代表已完成
+
+O代表正在Focus
+
+-代表题目不存在或者太水
+
+·代表有意向补
+
+点击√可查看代码
 
 
 # Dafeng (100-199)
@@ -27,7 +41,7 @@ Day10   |        |        |        |        |        |        |        |        
 
 Zayin   |   A    |   B    |   C    |   D    |   E    |   F    |   G    |   H    |   I    |   J    |   K    |   L    | M
 :------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:
-Day1    |        |        |        |[√][200]|        |        |        |        |        |        |[√][201]|[√][202]|
+Day1    |        |[√][203]|        |[√][200]|        |        |        |        |        |        |[√][201]|[√][202]|
 Day2    |        |        |        |        |        |        |        |        |        |        |        |        |
 Day3    |        |        |        |        |        |        |        |        |        |        |        |        |
 Day4    |        |        |        |        |        |        |        |        |        |        |        |        |
@@ -41,6 +55,7 @@ Day10   |        |        |        |        |        |        |        |        
 [200]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day1/D_zayin.cpp
 [201]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day1/K_zayin.cpp
 [202]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day1/L_zayin.cpp
+[203]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day1/B_Zayin.cpp
 
 
 # wcy1122 (300-399)

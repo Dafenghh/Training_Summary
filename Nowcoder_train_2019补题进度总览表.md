@@ -1,16 +1,8 @@
-# 牛客多校2019训练记录+题解+补题进度
+## 牛客多校2019补题进度总览表
 
-## 第一场
-
-### 题解
-
-## 第二场
-
-### 题解
+[题解戳这里](https://github.com/Dafenghh/Training_Summary/blob/master/Nowcoder_train_2019.md)
 
 
-
-## 补题进度总览表
 
 √代表已完成
 
