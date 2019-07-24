@@ -62,7 +62,7 @@ Day10   |        |        |        |        |        |        |        |        
 
 wcy1122 |   A    |   B    |   C    |   D    |   E    |   F    |   G    |   H    |   I    |   J    |   K    |   L    | M
 :------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:
-Day1    |        |        |        |        |        |        |        |        |[√][300]|        |        |        |
+Day1    |        |        |        |        |        |[√][301]|        |        |[√][300]|        |        |        |
 Day2    |        |        |        |        |        |        |        |        |        |        |        |        |
 Day3    |        |        |        |        |        |        |        |        |        |        |        |        |
 Day4    |        |        |        |        |        |        |        |        |        |        |        |        |
@@ -73,5 +73,6 @@ Day8    |        |        |        |        |        |        |        |        
 Day9    |        |        |        |        |        |        |        |        |        |        |        |        |
 Day10   |        |        |        |        |        |        |        |        |        |        |        |        |
 
-[300]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day1/L_wcy1122.cpp
+[300]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day1/I_wcy1122.cpp
+[301]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day1/F_wcy1122.cpp
 
