@@ -20,7 +20,7 @@ O代表正在Focus
 Dafeng  |   A    |   B    |   C    |   D    |   E    |   F    |   G    |   H    |   I    |   J    
 :------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:
 Day1    |        |        |        |        |        |        |        |        |        |        
-Day2    |        |        |        |        |        |    -   |        |        |        |        
+Day2    |        |        |        |        |        |    -   |        |        |        |[√][201]       
 Day3    |        |        |        |        |        |        |        |        |        |        
 Day4    |        |        |        |        |        |        |        |        |        |       
 Day5    |        |        |        |        |        |        |        |        |        |      
@@ -29,6 +29,8 @@ Day7    |        |        |        |        |        |        |        |        
 Day8    |        |        |        |        |        |        |        |        |        |       
 Day9    |        |        |        |        |        |        |        |        |        |      
 Day10   |        |        |        |        |        |        |        |        |        |       
+
+[201]: https://github.com/Dafenghh/Training_Summary/blob/master/code/Nowcoder2019/day2/J_dafeng.cpp
 
 
 # Zayin (200-299) 
