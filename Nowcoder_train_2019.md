@@ -10,9 +10,9 @@ $a_{i,j}$ & x 全部都有奇数个1相当于$\Pi(1-(-1)^{|a_{i,j} \wedge  x|})$
 
 $count(x)=1/(2^m)*\sum_{i=1}^n\Pi(1-(-1)^{|a_{i,j} \wedge x|})$ 
 
-$\Pi(1-(-1)^{|a_{i,j} and x|}=\sum_{s}(-1)^{|x \wedge s|}$ 其中s是枚举所有$a_{i,j}$的集合
+$\Pi(1-(-1)^{|a_{i,j} and x|}=\sum_{s}(-1)^{|x \wedge s|}$ 其中s是枚举所有$a_{i,j}$的集合的xor和
 
-后面这个东西就是FWT的定义
+后面这个东西就是FWT_xor的定义
 
 可以先跑一个格雷码把s的枚举顺序搞出来然后FWT就求出$count(x)$了
 
