@@ -39,7 +39,7 @@ Zayin   |   A    |   B    |   C    |   D    |   E    |   F    |   G    |   H    
 :------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:
 Day1    |        |        |        |        |        |        |        |        |        |        
 Day2    |        |        |        |        |        | -      |        |        |[√][200]|        
-Day3    |        |        |        |        |        |        |        |        |        |        
+Day3    |[√][201]|        |        |        |        |        |        |        |        |        
 Day4    |        |        |        |        |        |        |        |        |        |       
 Day5    |        |        |        |        |        |        |        |        |        |      
 Day6    |        |        |        |        |        |        |        |        |        |       
@@ -49,6 +49,7 @@ Day9    |        |        |        |        |        |        |        |        
 Day10   |        |        |        |        |        |        |        |        |        |       
 
 [200]: https://github.com/Dafenghh/Training_Summary/blob/master/code/Nowcoder2019/day2/I_zayin.cpp
+[201]: https://github.com/Dafenghh/Training_Summary/blob/master/code/Nowcoder2019/day3/A_Zayin.cpp
 
 
 
