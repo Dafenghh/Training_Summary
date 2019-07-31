@@ -86,6 +86,10 @@ M题敲得也有些慢，有些特殊情况没有考虑到。还敲错了一个�
 那么这题就做完了。  
 
 
+#### H Desert [(By Zayin)](https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day1/H_Zayin.cpp)
+[题解戳此](https://blog.csdn.net/Zayin___/article/details/97895851)
+
+
 #### J Kingdom [(By Zayin)](https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day1/J_Zayin.cpp)
 也是一个水题，而且是很容易写的水题。。。不知道为什么没什么人过。。。  
 记dp[i][l][r]表示以a[i]为根，中序遍历区间为b[l,r]的答案，转移直接暴力枚举根在哪个位置就可以了...  
