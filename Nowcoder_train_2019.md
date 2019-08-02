@@ -63,4 +63,9 @@ $\Pi(1-(-1)^{|a_{i,j} and x|}=\sum_{s}(-1)^{|x \wedge s|}$ 其中s是枚举所�
 即一个数a最多会被logw个数所枚举，复杂度为O(nlogw).  
 
 
+## 第五场
+
+### C generator [(By Zayin)](https://github.com/Dafenghh/Training_Summary/blob/master/code/Nowcoder2019/day5/C_Zayin.cpp)
+直接上bsgs是不行的，会T，因为此时的复杂度是O(sqrt p+Q\*sqrt p)，常数很大。  
+所以匀一匀复杂度，使得预处理和询问接近相等，最后复杂度变为O(sqrt (Qp)).
 
