@@ -65,8 +65,9 @@ $\Pi(1-(-1)^{|a_{i,j} and x|}=\sum_{s}(-1)^{|x \wedge s|}$ 其中s是枚举所�
 ## 第四场
 
 ### G Tree [(By Zayin)](https://github.com/Dafenghh/Training_Summary/blob/master/code/Nowcoder2019/day4/G_Zayin.cpp)
-hash原来是不能随便hash的...   
+原来hash是不能随便hash的...   
 原来我是个非洲人...  
+【喷血】
 
 ## 第五场
 
