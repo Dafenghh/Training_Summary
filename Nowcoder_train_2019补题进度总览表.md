@@ -42,7 +42,7 @@ Day1    |        |        |        |        |        |        |        |        
 Day2    |        |        |        |        |        | -      |        |        |[√][200]|        
 Day3    |[√][201]|        |[√][202]|        |        |        |        |        |        |        
 Day4    |        |        |        |        |        |        |        |        |        |       
-Day5    |        |        |        |        |        |        |        |        |        |      
+Day5    |        |        |[√][203]|        |        |        |        |        |        |      
 Day6    |        |        |        |        |        |        |        |        |        |       
 Day7    |        |        |        |        |        |        |        |        |        |      
 Day8    |        |        |        |        |        |        |        |        |        |       
@@ -52,6 +52,7 @@ Day10   |        |        |        |        |        |        |        |        
 [200]: https://github.com/Dafenghh/Training_Summary/blob/master/code/Nowcoder2019/day2/I_zayin.cpp
 [201]: https://github.com/Dafenghh/Training_Summary/blob/master/code/Nowcoder2019/day3/A_Zayin.cpp
 [202]: https://github.com/Dafenghh/Training_Summary/blob/master/code/Nowcoder2019/day3/C_Zayin.cpp
+[203]: https://github.com/Dafenghh/Training_Summary/blob/master/code/Nowcoder2019/day5/C_Zayin.cpp
 
 
 
