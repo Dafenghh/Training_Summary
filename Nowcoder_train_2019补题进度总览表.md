@@ -22,8 +22,8 @@ Dafeng  |   A    |   B    |   C    |   D    |   E    |   F    |   G    |   H    
 Day1    |        |        |        |[√][102]|        |        |        |        |        |        
 Day2    |        |        |        |        |        |    -   |        |        |        |[√][101]      
 Day3    |        |        |        |        |        |        |        |        |        |        
-Day4    |        |        |        |        |        |        |        |        |        |       
-Day5    |        |        |        |        |        |        |        |        |        |      
+Day4    |        |        |        |        |        |[√][103]|        |        |        |       
+Day5    |        |        |        |        |        |[√][104]|        |        |        |      
 Day6    |        |        |        |        |        |        |        |        |        |       
 Day7    |        |        |        |        |        |        |        |        |        |      
 Day8    |        |        |        |        |        |        |        |        |        |       
@@ -32,6 +32,9 @@ Day10   |        |        |        |        |        |        |        |        
 
 [101]: https://github.com/Dafenghh/Training_Summary/blob/master/code/Nowcoder2019/day2/J_dafeng.cpp
 [102]: https://github.com/Dafenghh/Training_Summary/blob/master/code/Nowcoder2019/day1/D_dafeng.cpp
+[103]: https://github.com/Dafenghh/Training_Summary/blob/master/code/Nowcoder2019/day4/F_dafeng.cpp
+[104]: https://github.com/Dafenghh/Training_Summary/blob/master/code/Nowcoder2019/day5/D_dafeng.cpp
+
 
 
 # Zayin (200-299) 
@@ -64,7 +67,7 @@ ctlchild|   A    |   B    |   C    |   D    |   E    |   F    |   G    |   H    
 Day1    |        |        |        |        |        |        |        |        |[√][300]|        
 Day2    |        |        |        |        |        |     -  |        |        |        |        
 Day3    |        |        |        |        |        |        |        |        |        |        
-Day4    |        |        |        |        |        |        |        |        |        |       
+Day4    |        |        |        |        |        |[√][301]|        |        |        |       
 Day5    |        |        |        |        |        |        |        |        |        |      
 Day6    |        |        |        |        |        |        |        |        |        |       
 Day7    |        |        |        |        |        |        |        |        |        |      
@@ -73,3 +76,4 @@ Day9    |        |        |        |        |        |        |        |        
 Day10   |        |        |        |        |        |        |        |        |        |       
 
 [300]: https://github.com/Dafenghh/Training_Summary/blob/master/code/Nowcoder2019/day1/I_ctlchild.cpp
+[301]: https://github.com/Dafenghh/Training_Summary/blob/master/code/Nowcoder2019/day4/F_ctlchild.cpp
