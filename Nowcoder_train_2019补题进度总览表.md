@@ -53,7 +53,7 @@ Zayin   |   A    |   B    |   C    |   D    |   E    |   F    |   G    |   H    
 Day1    |[√][214]|[√][215]|        |        |        |[√][216]|        |[√][217]|        |-        
 Day2    |        |        |        |[√][213]|        | -      |        |[√][212]|[√][200]|        
 Day3    |[√][201]|        |[√][202]|[√][210]|        |[√][209]|        |        |[√][211]|        
-Day4    |        |[√][208]|        |        |        |        |[√][204]|        |[√][207]|       
+Day4    |        |[√][208]|        |        |        |[√][220]|[√][204]|        |[√][207]|       
 Day5    |        |        |[√][203]|        |        |        |[√][205]|        |        |      
 Day6    |    -   |-       |[√][218]|        |[√][219]|        |        |        |        |-     
 Day7    |        |        |        |        |        |        |        |        |        |      
@@ -81,6 +81,7 @@ Day10   |        |        |        |        |        |        |        |        
 [217]: https://github.com/Dafenghh/Training_Summary/blob/master/code/Nowcoder2019/day1/H_zayin.cpp
 [218]: https://github.com/Dafenghh/Training_Summary/blob/master/code/Nowcoder2019/day6/C_zayin.cpp
 [219]: https://github.com/Dafenghh/Training_Summary/blob/master/code/Nowcoder2019/day6/E_zayin.cpp
+[220]: https://github.com/Dafenghh/Training_Summary/blob/master/code/Nowcoder2019/day4/F_Zayin.cpp
 
 
 # ctlchild (300-399)
