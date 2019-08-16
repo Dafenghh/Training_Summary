@@ -34,7 +34,7 @@ Problem            |Comment             |Done
 [20190316E][16]    |转完全图匹配         |
 [20190317I][17]    |队友过的好题         |
 [20190317K][18]    |不算难的题 欧拉回路   |
-[20190317F][18]    |树上莫队 留意team1,5代码|
+[20190317F][18]    |树上莫队 留意team1,5代码|[√][26]
 [cjk 2019A T3][20] |贪心，大样例的线段树写得好辛苦（因为菜）  |[√][21]
 [计蒜客2019复赛C][22]|FWT，待补|
 [计蒜客2019复赛F][23]|思维题，待补|
@@ -137,4 +137,6 @@ B题做得最慢，应该和A题花费差不多的时间才对。
 [21]: https://github.com/Dafenghh/Training_Summary/blob/master/code/dafeng/20190324/c.cpp
 [22]: https://nanti.jisuanke.com/t/39613
 [23]: https://nanti.jisuanke.com/t/39616
-[24]: https://nanti.jisuanke.com/t/39617
+[24]: https://nanti.jisuankhttps://vjudge.net/contest/263852#problem/De.com/t/39617
+[25]: https://vjudge.net/contest/263852#problem/D
+[26]: https://codeforces.com/group/wmhDiB5PTN/contest/240806/submission/55309936
