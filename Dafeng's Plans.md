@@ -42,7 +42,7 @@ Problem            |Comment             |Done
 TCO beijing D|有趣的构造题，一定要补|
 srm 761 1A|数学or模拟题?|
 srm 761 1C|dp?|
-
+[SEERC 17D][25]|xor下rank，每行两个元素，必须补！|
 ## 3. TC刷题计划
 http://wronganswer.blog.uoj.ac/blog/2285
 
