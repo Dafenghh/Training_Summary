@@ -45,6 +45,7 @@ srm 761 1C|dp?|
 [SEERC 17D][25]|xor下rank，每行两个元素，必须补！|
 [HDU2019 4E][27]|三进制FWT|
 [北京2017 I Colored Nodes][28]|有趣的题目|
+[CCPC2018吉林H][29]|必须补完|
 ## 3. TC刷题计划
 http://wronganswer.blog.uoj.ac/blog/2285
 
@@ -144,3 +145,4 @@ B题做得最慢，应该和A题花费差不多的时间才对。
 [26]: https://codeforces.com/group/wmhDiB5PTN/contest/240806/submission/55309936
 [27]: https://vjudge.net/problem/HDU-6618
 [28]: https://vjudge.net/problem/HihoCoder-1635
+[29]: https://vjudge.net/problem/HDU-6562
