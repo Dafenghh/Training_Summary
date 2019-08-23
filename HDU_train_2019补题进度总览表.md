@@ -23,7 +23,7 @@ Dafeng  |   A    |   B    |   C    |   D    |   E    |   F    |   G    |   H    
 Day1    |[√][100]|        |        |        |[√][101]|[√][103]|        |        |        |        |        |        |[√][102]
 Day2    |        |        |        |        |        |        |        |        |        |        |        |        |
 Day3    |        |        |        |        |        |        |        |        |        |        |        |        |
-Day4    |        |        |        |        |        |        |        |        |        |        |        |        |
+Day4    |        |        |        |        |[√][104]|        |        |        |        |        |        |        |
 Day5    |        |        |        |        |        |        |        |        |        |        |        |        |
 Day6    |        |        |        |        |        |        |        |        |        |        |        |        |
 Day7    |        |        |        |        |        |        |        |        |        |        |        |        |
@@ -36,7 +36,7 @@ Day10   |        |        |        |        |        |        |        |        
 [101]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day1/E_dafeng.cpp
 [102]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day1/M_dafeng.cpp
 [103]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day1/F_dafeng.cpp
-
+[104]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day4/E_dafeng.cpp
 
 # Zayin (200-299) 
 
