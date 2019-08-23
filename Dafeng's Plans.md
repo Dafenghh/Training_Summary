@@ -43,7 +43,7 @@ TCO beijing D|有趣的构造题，一定要补|
 srm 761 1A|数学or模拟题?|
 srm 761 1C|dp?|
 [SEERC 17D][25]|xor下rank，每行两个元素，必须补！|
-[HDU2019 4E][27]|三进制FWT|
+[HDU2019 4E][27]|三进制FWT|[√][30]
 [北京2017 I Colored Nodes][28]|有趣的题目|
 [CCPC2018吉林H][29]|必须补完|
 ## 3. TC刷题计划
@@ -146,3 +146,5 @@ B题做得最慢，应该和A题花费差不多的时间才对。
 [27]: https://vjudge.net/problem/HDU-6618
 [28]: https://vjudge.net/problem/HihoCoder-1635
 [29]: https://vjudge.net/problem/HDU-6562
+[30]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day4/E_dafeng.cpp
+
