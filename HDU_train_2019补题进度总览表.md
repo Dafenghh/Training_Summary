@@ -43,7 +43,7 @@ Day10   |        |        |        |        |        |        |        |        
 Zayin   |   A    |   B    |   C    |   D    |   E    |   F    |   G    |   H    |   I    |   J    |   K    |   L    | M
 :------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:
 Day1    |        |[√][203]|        |[√][200]|        |[√][204]|[√][205]|[√][207]|        |[√][206]|[√][201]|[√][202]|
-Day2    |        |        |        |        |        |        |        |        |        |        |        |        |
+Day2    |        |        |        |        |        |        |[√][208]|        |        |        |        |        |
 Day3    |        |        |        |        |        |        |        |        |        |        |        |        |
 Day4    |        |        |        |        |        |        |        |        |        |        |        |        |
 Day5    |        |        |        |        |        |        |        |        |        |        |        |        |
@@ -61,6 +61,7 @@ Day10   |        |        |        |        |        |        |        |        
 [205]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day1/G_Zayin.cpp
 [206]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day1/J_Zayin.cpp
 [207]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day1/H_Zayin.cpp
+[208]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day2/G_Zayin.cpp
 
 
 # wcy1122 (300-399)
