@@ -43,7 +43,7 @@ Day10   |        |        |        |        |        |        |        |        
 Zayin   |   A    |   B    |   C    |   D    |   E    |   F    |   G    |   H    |   I    |   J    |   K    |   L    | M
 :------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:
 Day1    |        |[√][203]|        |[√][200]|        |[√][204]|[√][205]|[√][207]|        |[√][206]|[√][201]|[√][202]|
-Day2    |        |        |        |        |        |        |[√][208]|        |        |        |        |        |
+Day2    |        |        |        |        |[√][216]|[√][219]|[√][208]|[√][218]|[√][215]|        |[√][217]|        |
 Day3    |        |        |        |        |[√][209]|        |        |[√][210]|        |        |[√][211]|        |
 Day4    |        |        |        |        |[√][214]|        |        |        |        |        |        |        |
 Day5    |        |[√][212]|        |        |        |        |        |        |[√][213]|        |        |        |
@@ -53,6 +53,11 @@ Day8    |        |        |        |        |        |        |        |        
 Day9    |        |        |        |        |        |        |        |        |        |        |        |        |
 Day10   |        |        |        |        |        |        |        |        |        |        |        |        |
 
+[219]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day2/F_Zayin.cpp
+[218]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day2/H_Zayin.cpp
+[217]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day2/K_Zayin.cpp
+[216]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day2/E_Zayin.cpp
+[215]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day2/I_Zayin.cpp
 [200]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day1/D_zayin.cpp
 [201]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day1/K_zayin.cpp
 [202]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day1/L_zayin.cpp
