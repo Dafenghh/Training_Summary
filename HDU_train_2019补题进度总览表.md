@@ -45,7 +45,7 @@ Zayin   |   A    |   B    |   C    |   D    |   E    |   F    |   G    |   H    
 Day1    |        |[√][203]|        |[√][200]|        |[√][204]|[√][205]|[√][207]|        |[√][206]|[√][201]|[√][202]|
 Day2    |        |        |        |        |[√][216]|[√][219]|[√][208]|[√][218]|[√][215]|        |[√][217]|        |
 Day3    |        |        |        |        |[√][209]|        |        |[√][210]|[√][222]|        |[√][211]|        |
-Day4    |        |        |[√][221]|[√][227]|[√][214]|        |        |[√][220]|        |        |        |        |
+Day4    |        |[√][228]|[√][221]|[√][227]|[√][214]|        |        |[√][220]|        |        |        |        |
 Day5    |        |[√][212]|        |        |        |        |        |        |[√][213]|        |        |        |
 Day6    |[√][223]|[√][224]|        |        |        |[√][224]|        |        |        |[√][226]|        |        |
 Day7    |        |        |        |        |        |        |        |        |        |        |        |        |
@@ -53,6 +53,7 @@ Day8    |        |        |        |        |        |        |        |        
 Day9    |        |        |        |        |        |        |        |        |        |        |        |        |
 Day10   |        |        |        |        |        |        |        |        |        |        |        |        |
 
+[228]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day4/B_Zayin.cpp
 [227]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day4/D_Zayin.cpp
 [226]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day6/J_Zayin.cpp
 [225]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day6/F_Zayin.cpp
