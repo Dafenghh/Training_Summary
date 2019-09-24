@@ -50,9 +50,10 @@ Day5    |        |[√][212]|        |        |        |        |        |      
 Day6    |[√][223]|[√][224]|        |        |        |[√][224]|        |        |        |[√][226]|        |        |
 Day7    |        |        |        |        |        |        |        |        |        |        |        |        |
 Day8    |        |        |        |        |        |        |        |        |        |        |        |        |
-Day9    |        |        |        |        |        |        |        |        |        |        |        |        |
+Day9    |        |        |        |        |        |        |        |        |        |        |[√][229]|        |
 Day10   |        |        |        |        |        |        |        |        |        |        |        |        |
 
+[229]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day9/K_Zayin.cpp
 [228]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day4/B_Zayin.cpp
 [227]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day4/D_Zayin.cpp
 [226]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day6/J_Zayin.cpp
