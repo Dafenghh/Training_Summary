@@ -56,14 +56,11 @@ int main() {
                 ++j;
                 sam.extend(s[j]-'a');
                 while (cur>1&&i-j-1<=sam.st[sam.st[cur].link].len) {
-                   // printf("i=%d, j=%d, cur=%d, i-j=%d, sam.st[sam.st[cur].link].len=%d\n", i, j, cur, i-j,
-                //sam.st[sam.st[cur].link].len);
                     cur = sam.st[cur].link;   
                 }
             }
             if (j < i) cur = sam.st[cur].next[s[i]-'a'];
             pre[i] = j;
-       //     printf("pre[%d]=%d\n", i, pre[i]);
         }
 
         for (int i = 1; i <= n; i++) {
