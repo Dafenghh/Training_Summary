@@ -17,6 +17,10 @@
 谢立辉   |
 
 
+## 比赛总结
+
+[CCPC 2019 秦皇岛 rank17 金](https://github.com/Dafenghh/Training_Summary/blob/master/Summary%20of%20CCPC%202019%20Qinhuangdao%20site.md)
+
 ## 快速导航
 
 [HDU多校2019训练记录+题解](https://github.com/Dafenghh/Training_Summary/blob/master/HDU_train_2019.md)
