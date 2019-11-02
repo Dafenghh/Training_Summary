@@ -34,7 +34,7 @@ Problem            |Comment             |Done
 [20190316E][16]    |转完全图匹配         |
 [20190317I][17]    |队友过的好题         |
 [20190317K][18]    |不算难的题 欧拉回路   |
-[20190317F][18]    |树上莫队 留意team1,5代码|
+[20190317F][18]    |树上莫队 留意team1,5代码|[√][26]
 [cjk 2019A T3][20] |贪心，大样例的线段树写得好辛苦（因为菜）  |[√][21]
 [计蒜客2019复赛C][22]|FWT，待补|
 [计蒜客2019复赛F][23]|思维题，待补|
@@ -42,7 +42,10 @@ Problem            |Comment             |Done
 TCO beijing D|有趣的构造题，一定要补|
 srm 761 1A|数学or模拟题?|
 srm 761 1C|dp?|
-
+[SEERC 17D][25]|xor下rank，每行两个元素，必须补！|
+[HDU2019 4E][27]|三进制FWT|[√][30]
+[北京2017 I Colored Nodes][28]|有趣的题目|
+[CCPC2018吉林H][29]|必须补完|
 ## 3. TC刷题计划
 http://wronganswer.blog.uoj.ac/blog/2285
 
@@ -113,6 +116,20 @@ B题做得最慢，应该和A题花费差不多的时间才对。
 
 以后做题，遇到一筹莫展的时候，应该**开拓**下思路，想想有哪些路可以尝试走。
 
+### 20190826 CF Manthan, Codefest 19
+E题水题没有敲出来……太可惜了。
+
+比赛时的写法复杂，易错。其实只要在原数组左右两边各拓展一个零元素就很好写了。然后就是单调队列维护区间左右端点单增的RMQ。 我第一次写这种东西，写错了。(初始时队列需要有一个区间，不然肯定错的)。
+
+A题B题手速暂时是达到要求了。
+
+C题构造，真的想得太慢了。注意构造题的一种套路是，手构简单情况，然后看看简单情况能否扩展，一种扩展方法就是直接copy paste
+
+（这题n=4k）真是很好的暗示了。这题不要在样例上找规律。
+
+D题，我敲线段树敲了20分钟。可以更快。这题还有更简单的bit做法。
+
+
 [1]: http://opentrains.snarknews.info/~ejudge/team.cgi?contest_id=001519
 [2]: https://www.lydsy.com/JudgeOnline/problem.php?id=5424
 
@@ -137,4 +154,11 @@ B题做得最慢，应该和A题花费差不多的时间才对。
 [21]: https://github.com/Dafenghh/Training_Summary/blob/master/code/dafeng/20190324/c.cpp
 [22]: https://nanti.jisuanke.com/t/39613
 [23]: https://nanti.jisuanke.com/t/39616
-[24]: https://nanti.jisuanke.com/t/39617
+[24]: https://nanti.jisuankhttps://vjudge.net/contest/263852#problem/De.com/t/39617
+[25]: https://vjudge.net/contest/263852#problem/D
+[26]: https://codeforces.com/group/wmhDiB5PTN/contest/240806/submission/55309936
+[27]: https://vjudge.net/problem/HDU-6618
+[28]: https://vjudge.net/problem/HihoCoder-1635
+[29]: https://vjudge.net/problem/HDU-6562
+[30]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day4/E_dafeng.cpp
+
