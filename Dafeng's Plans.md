@@ -45,7 +45,9 @@ srm 761 1C|dp?|
 [SEERC 17D][25]|xor下rank，每行两个元素，必须补！|
 [HDU2019 4E][27]|三进制FWT|[√][30]
 [北京2017 I Colored Nodes][28]|有趣的题目|
-[CCPC2018吉林H][29]|必须补完|
+[CCPC2018吉林H][29]|简单的线段树维护矩阵乘积|
+[CQOI 2012交换棋子][31]|很好的网络流题目，交换转成移动，我一开始就建对图了，结果八连通连边连少了一直WA|
+
 ## 3. TC刷题计划
 http://wronganswer.blog.uoj.ac/blog/2285
 
@@ -161,4 +163,5 @@ D题，我敲线段树敲了20分钟。可以更快。这题还有更简单的bi
 [28]: https://vjudge.net/problem/HihoCoder-1635
 [29]: https://vjudge.net/problem/HDU-6562
 [30]: https://github.com/Dafenghh/Training_Summary/blob/master/code/HDU2019/day4/E_dafeng.cpp
+[31]: https://www.luogu.org/problem/P3159
 
