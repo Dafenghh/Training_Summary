@@ -143,7 +143,9 @@ C题也是暴力题，想得有点慢，敲得也有点慢。
 B题得反思一下。
 
 ### 20200209 CF #618
-退役之后，仍然不在状态。今天的B和C都要很快切掉才对。得多打比赛，多补题才行。
+退役之后，仍然不在状态。今天的B和C都要很快切掉才对。B，判一下是否中心对称；C，单调栈简单题。
+
+得多打比赛，多补题才行。
 
 [1]: http://opentrains.snarknews.info/~ejudge/team.cgi?contest_id=001519
 [2]: https://www.lydsy.com/JudgeOnline/problem.php?id=5424
